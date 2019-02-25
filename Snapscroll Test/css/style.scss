@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding: 7em;
+    height: calc(100vh - 14em);
+    color: white;
+    scroll-snap-align: start;
+
+    &:nth-of-type(1)
+    {
+        background: rgb(39, 54, 196);
+    }
+    &:nth-of-type(2)
+    {
+        background: rgb(33, 179, 135);
+    }
+    &:nth-of-type(3)
+    {
+        background: rgb(127, 189, 28);
+    }
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  padding: 7em;
+  height: calc(100vh - 14em);
+  color: white;
+  scroll-snap-align: start;
+}
+
+section:nth-of-type(1) {
+  background: #2736c4;
+}
+
+section:nth-of-type(2) {
+  background: #21b387;
+}
+
+section:nth-of-type(3) {
+  background: #7fbd1c;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
