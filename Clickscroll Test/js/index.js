@@ -39,12 +39,6 @@ function smoothScroll(target, duration){
 var nextButton = document.querySelector('.next');
 var previousButton = document.querySelector('.previous');
 
-// var section1 = document.querySelector('.section1');
-// var section2 = document.querySelector('.section2');
-// var section3 = document.querySelector('.section3');
-
-// var sectionArray = [section1, section2, section3];
-
 //functions
 function setSectionArray(){
 
@@ -137,7 +131,25 @@ function goToPreviousSection(){
     smoothScroll(previousSection, 1500);
 }
 
+function addEventListeners(){
+    var nextButtons = document.getElementsByClassName('next');
+    var previousButtons = document.getElementsByClassName('previous');
+
+    for (let i = 0; i < nextButtons.length; i++) {
+        nextButtons[i].addEventListener("click", function(){
+            goToNextSection();
+        });
+    }
+    for (let i = 0; i < previousButtons.length; i++) {
+        previousButtons[i].addEventListener("click", function(){
+            goToPreviousSection();
+        });
+    }    
+}
+
 //eventlisteners
+addEventListeners();
+
 // nextButton.addEventListener('click', function(){
 //     goToNextSection();
 // })
