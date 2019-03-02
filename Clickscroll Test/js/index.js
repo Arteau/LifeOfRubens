@@ -36,8 +36,8 @@ function smoothScroll(target, duration){
 
 
 //variables
-var nextButton = document.querySelector('.next');
-var previousButton = document.querySelector('.previous');
+// var nextButton = document.querySelector('.next');
+// var previousButton = document.querySelector('.previous');
 
 //functions
 function setSectionArray(){
@@ -136,12 +136,12 @@ function addEventListeners(){
     var previousButtons = document.getElementsByClassName('previous');
 
     for (let i = 0; i < nextButtons.length; i++) {
-        nextButtons[i].addEventListener("click", function(){
+        nextButtons[i].addEventListener("mousedown", function(){
             goToNextSection();
         });
     }
     for (let i = 0; i < previousButtons.length; i++) {
-        previousButtons[i].addEventListener("click", function(){
+        previousButtons[i].addEventListener("mousedown", function(){
             goToPreviousSection();
         });
     }    
