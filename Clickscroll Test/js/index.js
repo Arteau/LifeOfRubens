@@ -105,9 +105,7 @@ function getPreviousSection(){
 
             return previousSection;
         }  
-        // if(sections[i].getBoundingClientRect().top < currentSection.getBoundingClientRect().top){
-        //     return sections[i];
-        // }        
+       
     }
 }
 
