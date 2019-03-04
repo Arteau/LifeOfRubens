@@ -2,6 +2,23 @@ body {
   margin: 0;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #5e5e5e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 section {
   height: 100vh;
   width: 100%;
