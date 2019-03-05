@@ -129,7 +129,7 @@ function goToPreviousSection(){
     smoothScroll(previousSection, 1500);
 }
 
-function addEventListeners(){
+function addEventListenersToButtons(){
     var nextButtons = document.getElementsByClassName('next');
     var previousButtons = document.getElementsByClassName('previous');
 
@@ -146,7 +146,18 @@ function addEventListeners(){
 }
 
 //eventlisteners
-addEventListeners();
+addEventListenersToButtons();
+window.addEventListener("resize", function(){
+    setSectionArray();
+});
+
+
+
+
+
+
+
+
 
 // nextButton.addEventListener('click', function(){
 //     goToNextSection();
