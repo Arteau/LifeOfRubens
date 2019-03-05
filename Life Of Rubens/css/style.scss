@@ -17,17 +17,22 @@ body {
     -moz-box-shadow: 0px 2px 32px 0px rgb(219, 219, 219);
     box-shadow: 0px 2px 32px 0px rgb(219, 219, 219);
     
+  
+        h1{
+            padding: 0;
+            margin: 0;
+            margin-left: 10px;
+            margin-bottom: 9px;
+            font-family: 'Playfair Display', serif;
+            align-self: center;
+            justify-self: start;
+            color: #5e5e5e;
+        }
+        h1:hover{
+            cursor: pointer;
+        }
     
-    h1{
-        padding: 0;
-        margin: 0;
-        margin-left: 10px;
-        margin-bottom: 9px;
-        font-family: 'Playfair Display', serif;
-        align-self: center;
-        justify-self: start;
-        color: #5e5e5e;
-    }
+
 
 
     .menuList{
@@ -71,7 +76,7 @@ section{
     .buttonContainer{
         position: relative;
         width: 100%;
-        top: 50%;
+        top: 90%;
         text-align: center;
         
         button{

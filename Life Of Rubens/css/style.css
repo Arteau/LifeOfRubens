@@ -33,6 +33,10 @@ body {
   color: #5e5e5e;
 }
 
+.navbar h1:hover {
+  cursor: pointer;
+}
+
 .navbar .menuList {
   font-family: 'Montserrat', sans-serif;
   padding: 0;
@@ -83,7 +87,7 @@ section {
 section .buttonContainer {
   position: relative;
   width: 100%;
-  top: 50%;
+  top: 90%;
   text-align: center;
 }
 
