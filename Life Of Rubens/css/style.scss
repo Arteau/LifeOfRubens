@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgba(255,255,255,1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+    z-index: 100;
+    -webkit-box-shadow: 0px 2px 32px 0px rgb(219, 219, 219);
+    -moz-box-shadow: 0px 2px 32px 0px rgb(219, 219, 219);
+    box-shadow: 0px 2px 32px 0px rgb(219, 219, 219);
+    
+    
+    h1{
+        padding: 0;
+        margin: 0;
+        margin-left: 10px;
+        margin-bottom: 9px;
+        font-family: 'Playfair Display', serif;
+        align-self: center;
+        justify-self: start;
+        color: #5e5e5e;
+    }
+
+
+    .menuList{
+        font-family: 'Montserrat', sans-serif;
+
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        align-self: center;
+        justify-self: end;
+        a{
+            transition: all .2s ease-in-out;
+            padding: 0px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin: 0;
+            text-align: center;
+            text-decoration: none;
+            color: #5e5e5e;
+            justify-self: center;
+            align-self: center;
+            width: 100%;
+            border-right: solid #5e5e5e 1px;
+        }
+        a:hover{
+            color: #d1d1d1;
+        }
+        a:last-child{
+            border-right: 0px;
+        }
+    }
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+
+    .buttonContainer{
+        position: relative;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+        
+        button{
+            transition: all .5s ease-in-out;
+            font-family: 'Montserrat', sans-serif;
+            border: 0px;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: rgb(240, 240, 240);
+            
+        }
+        button:hover{
+            background-color: rgb(228, 228, 228);
+            color: #868686;
+            cursor: pointer;
+    
+        }
+        button:focus{
+            outline: 0;
+        }
+    }
+
+}
+// .section1{
+//     background-color:rgb(72, 72, 165);
+// }
+// .section2{
+//     background-color:rgb(72, 165, 160);
+// }
+// .section3{
+//     background-color:rgb(140, 165, 72);
+// }
