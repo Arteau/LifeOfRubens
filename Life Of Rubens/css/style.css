@@ -15,8 +15,6 @@ body {
       grid-template-columns: 1fr 1fr;
   height: 50px;
   z-index: 100;
-  -webkit-box-shadow: 0px 2px 32px 0px #dbdbdb;
-  box-shadow: 0px 2px 32px 0px #dbdbdb;
 }
 
 .navbar h1 {
@@ -79,15 +77,40 @@ body {
 section {
   height: 100vh;
   width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: calc(100vh - 80px) 80px;
+      grid-template-rows: calc(100vh - 80px) 80px;
+      grid-template-areas: "illustration" "button";
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #e6e6e6;
+}
+
+section .mainWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  height: 100%;
+  grid-area: "illustration";
+  width: 100%;
+}
+
+section svg {
+  height: 80%;
+  width: auto;
 }
 
 section .buttonContainer {
+  grid-area: "button";
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   position: relative;
   width: 100%;
-  top: 90%;
   text-align: center;
 }
 
@@ -98,16 +121,24 @@ section .buttonContainer button {
   border: 0px;
   border-radius: 5px;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #e6e6e6;
 }
 
 section .buttonContainer button:hover {
-  background-color: #e4e4e4;
+  background-color: white;
   color: #868686;
   cursor: pointer;
 }
 
 section .buttonContainer button:focus {
   outline: 0;
+}
+
+.section1 svg {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=style.css.map */

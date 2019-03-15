@@ -2,10 +2,9 @@ var currentSectionNumber = 1;
 var homeButton = document.querySelector(".homeButton");
 homeButton.addEventListener("mousedown", function(){
     smoothScroll(document.querySelector(".section1"), 1500);
+    currentSectionNumber = 1;
 });
 addEventListenersToButtons();
-
-
 
 
 function smoothScroll(target, duration){
