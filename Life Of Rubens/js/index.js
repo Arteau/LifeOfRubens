@@ -6,7 +6,19 @@ homeButton.addEventListener("mousedown", function(){
 });
 addEventListenersToButtons();
 
+var animButton = document.querySelector(".animTest");
+animButton.addEventListener("mousedown", function(){
+    animatePanel1();
+})
 
+// Animations
+function animatePanel1(){
+    var svg = document.querySelector(".illustrationPanel1");
+    
+
+}
+
+// Scroll functions
 function smoothScroll(target, duration){
     var targetPosition = target.offsetTop;
     var startPosition = window.pageYOffset;
@@ -45,7 +57,6 @@ function addEventListenersToButtons(){
         });
     }    
 }
-
 
 function goToNextSection(){
     const nextSection = document.querySelector('.section' + (currentSectionNumber + 1));
