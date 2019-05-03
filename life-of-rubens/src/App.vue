@@ -20,15 +20,10 @@
 </template>
 
 <script>
-import { TimelineMax } from 'gsap'
-import { TweenMax } from 'gsap'
-import { DrawSVGPlugin } from './gsap-bonus/DrawSVGPlugin'
-
-        
-
 
 export default {
-  
+
+ 
 }
 </script>
 
