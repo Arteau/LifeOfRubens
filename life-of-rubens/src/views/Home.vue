@@ -3,22 +3,25 @@
 
     <!-- <parallax-element :parallaxStrength="-10" :type="'translation'" class="infoBox"> -->
     <!-- </parallax-element> -->
-        <div data-depth="0.1" class="infoBox">
+      <div class="layer" data-depth="0.1">
+        <div class="infoBox">    
           <h1>Peter Paul Rubens</h1>
           <h2>1577 - 1640</h2>
           <p class="infoText">Take an animated journey to the 16th and 17th century, and learn about the life of Flemish painter Peter Paul Rubens.</p>     
           <router-link to="/panels/one">
-            <div class="callToAction">
-              <button>Begin</button>
-            </div>
+           <div class="callToAction">
+            <button>Begin</button>
+           </div>
           </router-link>
         </div>
+      </div>
+       
 
 
       <!-- <parallax-element :parallaxStrength="-7" :type="'translation'" class="illustration"> -->
       <!-- </parallax-element> -->
-        <div data-depth="0.2" class="illustration">       
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402.24 487.95">
+        <div class="illustration">       
+          <svg data-depth="0.2" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402.24 487.95">
             <g id="hat">
               <path class="cls-1" d="M153.5,246.5c-4.86.15-13.53,2.14-18.33,2.91C104,254.4,50,244.19,50,209.66c0-102.86,96.72-103,142.84-123.36,63.39-28,61.82-81.16,128-81.16,31.89,0,101.79,26.07,101.79,101.79,0,46.93-72,96.4-111.61,113.07" transform="translate(-49.03 -4.14)"/>
               <path class="cls-1" d="M117.45,209.25c-7.26-1.46-9.62-7.85-9.62-15.05C107.83,110.45,254.61,81,318.13,81c11.32,0,19.66,6.32,30.84,13.12" transform="translate(-49.03 -4.14)"/>
@@ -129,7 +132,10 @@ export default {
     var scene = document.getElementById('scene');
     var parallaxInstance = new Parallax(scene, {
       relativeInput: true,
-      pointerEvents: true
+      pointerEvents: true,
+      selector: '.layer',
+      frictionX: 0.03,
+      frictionY: 0.03
     });
     console.log("mounted home")
     TweenMax.staggerFrom(".cls-1", 2, {drawSVG:0}, 0.1);
@@ -145,5 +151,114 @@ export default {
   stroke-width: 2px;
   fill: none;
 }
+
+
+
+.main-content{
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    .infoBox {
+        position: absolute;
+        z-index: 99;
+        top: 500px;
+        left: 1000px;
+        margin: 0px;
+        padding: 0px;
+        background: #fff;
+        width: 400px;
+        height: auto;
+        color: #707070;
+        box-shadow: 10px 10px 20px rgba($color: #000000, $alpha: 0.10);
+
+        h1 {
+          margin-left: 50px;
+          margin-top: 50px;
+          margin-right: 50px;
+          margin-bottom: 0px;
+          line-height: 0px;
+          font-family: 'Playfair Display', serif;
+        }
+        
+        h2{
+          padding-top: 20px;
+          margin-left: 50px;
+          margin-top: 0;
+          font-family: 'Playfair Display', serif;
+          font-weight: lighter;
+        }
+
+        .infoText {
+            margin-left: 50px;
+            margin-right: 50px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .callToAction {
+            margin-top: 30px;
+            height: 70px;
+            width: 100%;
+            border-top: 1px solid #c4c4c4;
+            display: grid;
+            grid-template-columns: auto; 
+            background-color: #fff;
+            transition: background-color 0.5s ease;
+            -o-transition: background-color 0.5s ease;
+            -moz-transition: background-color 0.5s ease;
+            -webkit-transition: background-color 0.5s ease;
+
+            button {
+                align-self: center;
+                justify-self: center;
+                background: none;
+                outline: 0;
+                border: 0px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                color: #c4c4c4;
+                cursor: pointer;
+
+                transition: color 0.5s ease;
+                -o-transition: color 0.5s ease;
+                -moz-transition: color 0.5s ease;
+                -webkit-transition: color 0.5s ease;
+            }
+        }
+        .callToAction:hover {
+            background-color: #f7f7f7;
+
+            button {
+                color: #707070;
+            }
+        }
+
+      }
+
+    .illustration{
+        position: absolute;
+        top: 0;
+        left: 15%;
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        z-index: -1;
+
+        svg {
+            position: relative;
+            height: 1000px;
+            width: auto;     
+        }
+    }
+    
+}
+
 
 </style>
