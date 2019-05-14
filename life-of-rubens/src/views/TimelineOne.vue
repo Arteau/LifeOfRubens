@@ -3,18 +3,18 @@
 
       <div class="layer" data-depth="0.1">
         <div class="infoBox">    
-          <h1>Peter Paul Rubens</h1>
+          <h1>Panel One</h1>
           <h2>1577 - 1640</h2>
-          <p class="infoText">Take an animated journey to the 16th and 17th century, and learn about the life of Flemish painter Peter Paul Rubens.</p>     
-          <router-link to="/timeline/one">
+          <p class="infoText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laboriosam recusandae, optio officiis necessitatibus soluta ullam nostrum vel quaerat porro dignissimos eveniet unde quidem rem odit, at odio dolore itaque.</p>     
+          <router-link to="/timeline/two">
            <div class="callToAction">
-            <button>Begin</button>
+            <button>Next</button>
            </div>
           </router-link>
         </div>
       </div>
        
-        <div class="illustration">       
+        <div class="illustration ">       
           <svg data-depth="0.2" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402.24 487.95">
             <g id="hat">
               <path class="cls-1" d="M153.5,246.5c-4.86.15-13.53,2.14-18.33,2.91C104,254.4,50,244.19,50,209.66c0-102.86,96.72-103,142.84-123.36,63.39-28,61.82-81.16,128-81.16,31.89,0,101.79,26.07,101.79,101.79,0,46.93-72,96.4-111.61,113.07" transform="translate(-49.03 -4.14)"/>
@@ -121,7 +121,7 @@ import '../gsap-bonus/DrawSVGPlugin'
 
 export default {
   
-  name: 'home',
+  name: 'one',
   mounted() {
     var scene = document.getElementById('scene');
     var parallaxInstance = new Parallax(scene, {
