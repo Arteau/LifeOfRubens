@@ -1,7 +1,7 @@
 <template>
   <div id="scene" class="home main-content">
 
-      <div class="layer" data-depth="0.1">
+      <div class="layer" data-depth="0.5">
         <div class="infoBox">    
           <h1>Fleeing Antwerp</h1>
           <h2>1568</h2>
@@ -15,7 +15,7 @@
       </div>
        
         <div class="rubensAndMaria illustration">       
-          <svg data-depth="0.2" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495.07 373.11">
+          <svg data-depth="0.4" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495.07 373.11">
             <g id="MariaButtons">
               <path class="cls-1 maria" d="M490.25,417.13a4.93,4.93,0,0,1-2-4,5.84,5.84,0,0,1,5.16-5.79,16,16,0,0,1,3.58,2.76c0,.32.05.64.05,1,0,3.74-2.31,6.14-5.91,6.14A6.68,6.68,0,0,1,490.25,417.13Z" transform="translate(-2.47 -63.45)"/>
               <path class="cls-1 maria" d="M470.48,430a7.78,7.78,0,0,1-2.54-1,9.11,9.11,0,0,1-.22-1.77c0-2.11,3-5.84,5.47-5.84,2.19,0,3.8,2.49,3.8,4.88a4,4,0,0,1-4.22,4.15A7.28,7.28,0,0,1,470.48,430Z" transform="translate(-2.47 -63.45)"/>
@@ -439,7 +439,7 @@
         </div>
 
         <div class="skyline illustration">
-          <svg data-depth="0.4" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1086.99 586.7">
+          <svg data-depth="0.2" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1086.99 586.7">
             <g id="HouseOne">
               <path class="cls-1" d="M158,627.59c7.68.95,3.35.45,28.51.45,14.7,0,29.38-.39,44.18-.39" transform="translate(-56.06 -305.96)"/>
               <path class="cls-1" d="M106.11,678.42c.35,23.5,5.12,55.34,5.12,79,0,26,0,33.28,0,46,0,7.54-1.52,19.18-1.52,28.92,0,12.64,1.52,29.41,1.52,39.2" transform="translate(-56.06 -305.96)"/>
@@ -694,8 +694,8 @@ export default {
 }
 
 .inquisition {
-  stroke: rgb(77, 77, 77);
-  stroke-width: 2px;
+  stroke: #000;
+  stroke-width: 2.5px;
 
   width: auto;
   height: auto;
@@ -712,7 +712,7 @@ export default {
 
 .skyline {
   stroke: #000;
-  stroke-width: 2px;
+  stroke-width: 3px;
 
   width: auto;
   height: auto;
