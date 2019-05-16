@@ -1,7 +1,7 @@
 <template>
   <div id="scene" class="home main-content">
 
-      <div class="layer" data-depth="0.5">
+      <div class="layer" data-depth="0.6">
         <div class="infoBox">    
           <h1>Fleeing Antwerp</h1>
           <h2>1568</h2>
@@ -642,7 +642,6 @@ import '../gsap-bonus/DrawSVGPlugin'
 
 export default {
   
-  name: 'one',
   mounted() {
     var scene = document.getElementById('scene');
     var parallaxInstance = new Parallax(scene, {

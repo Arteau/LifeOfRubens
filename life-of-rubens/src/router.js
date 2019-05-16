@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
-import TimelineOne from './views/TimelineOne.vue'
+import Chapter1_Page1 from './views/Chapter1_Page1.vue'
 
 Vue.use(Router)
 
@@ -21,7 +21,7 @@ export default new Router({
     {
       path: '/timeline/one',
       name: 'timelineOne',
-      component: TimelineOne
+      component: Chapter1_Page1
     }
 
   ]
