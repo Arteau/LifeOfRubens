@@ -1,7 +1,7 @@
 <template>
   <div id="scene" class="home main-content">
 
-      <div class="layer" data-depth="0.1">
+      <div class="layer" data-depth="0.3">
         <div class="infoBox">    
           <h1>Peter Paul Rubens</h1>
           <h2>1577 - 1640</h2>
