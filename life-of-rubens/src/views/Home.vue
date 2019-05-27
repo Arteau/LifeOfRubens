@@ -6,7 +6,7 @@
           <h1>Peter Paul Rubens</h1>
           <h2>1577 - 1640</h2>
           <p class="infoText">Take an animated journey to the 16th and 17th century, and learn about the life of Flemish painter Peter Paul Rubens.</p>     
-          <router-link to="/timeline/one">
+          <router-link to="/timeline/Chapter1_Intro">
            <div class="callToAction">
             <button>Begin</button>
            </div>
@@ -104,9 +104,6 @@
             </g>
           </svg>
         </div>
-
-
-
   </div>
 </template>
 
@@ -115,9 +112,6 @@
 import { TweenMax } from 'gsap'
 import Parallax from 'parallax-js'
 import '../gsap-bonus/DrawSVGPlugin'
-
-
-
 
 export default {
   
@@ -142,7 +136,7 @@ export default {
 <style lang="scss" scoped>
 .cls-1{
   stroke: #000;
-  stroke-width: 2px;
+  stroke-width: 1.5px;
   fill: none;
 }
 

@@ -6,7 +6,7 @@
           <h1>Fleeing Antwerp</h1>
           <h2>1568</h2>
           <p class="infoText">Peter Paul's parents were Jan Rubens and Maria Pypelincks. In 1568 they fled Antwerp out of fear for prosecution by the Catholic inquisition, seeing as Jan was a Calvinist Protestant, they weren't welcome in 16th century Antwerp.</p>     
-          <router-link to="/timeline/two">
+          <router-link to="/timeline/Chapter1_JanAndMariaWithChildren">
            <div class="callToAction">
             <button>Next</button>
            </div>
@@ -682,7 +682,6 @@ export default {
       frictionY: 0.03
     });
 
-  
     var nxtJanAndMaria = document.querySelector('.nxtJanAndMaria');
     nxtJanAndMaria.addEventListener('click', function(){
       console.log("nxtJanAndMaria clicked");
@@ -721,9 +720,7 @@ export default {
     .staggerFrom(".house5", 2, {drawSVG:0}, 0.1, "house1+=8")
     .fromTo(".infoFleeingAntwerp", 1, {opacity:0}, {opacity:1}, "house1");
     
-
   }
-
 }
 </script>
 
@@ -741,8 +738,8 @@ export default {
 .infoFleeingAntwerp{
   opacity: 0;
   width: 450px;
-  top: 50px;
-  left: 1200px;
+  top: 400px;
+  left: 200px;
 
 }
 
@@ -750,8 +747,8 @@ export default {
   z-index: 10;
 
   // opacity: 0;
-  top: 350px;
-  left: 1370px;
+  top: 450px;
+  left: 500px;
   width: 450px;
 }
 
@@ -760,8 +757,8 @@ export default {
 
   display: none;
   opacity: 0;
-  top: 510px;
-  left: 100px;
+  top: 100px;
+  left: 1100px;
   width: 450px;
 }
        
@@ -774,7 +771,7 @@ export default {
   width: auto;
   height: auto;
   top: 400px;
-  left: 700px;
+  left: 900px;
 
   svg {
     position: relative;
@@ -793,7 +790,7 @@ export default {
   width: auto;
   height: auto;
   top: 300px;
-  left: 500px;
+  left: 700px;
 
   svg {
     position: relative;
@@ -811,7 +808,7 @@ export default {
   height: auto;
   z-index: -3;
   top: 50px;
-  left: 250px;
+  left: 450px;
 
   svg {
     position: relative;

@@ -10,7 +10,7 @@ body, html {
     margin: 0;
     height: 100%;
 }
-  
+
 body{
     font-family: $textFont;
     display: grid;
@@ -137,49 +137,7 @@ body{
             font-family: 'Montserrat', sans-serif;
         }
 
-        a{
-            text-decoration: none;
-        }
 
-        .callToAction {
-            margin-top: 30px;
-            height: 70px;
-            width: 100%;
-            border-top: 1px solid #c4c4c4;
-            display: grid;
-            grid-template-columns: auto; 
-            background-color: #fff;
-            transition: background-color 0.5s ease;
-            -o-transition: background-color 0.5s ease;
-            -moz-transition: background-color 0.5s ease;
-            -webkit-transition: background-color 0.5s ease;
-
-            button {
-                align-self: center;
-                justify-self: center;
-                background: none;
-                outline: 0;
-                border: 0px;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 1.5em;
-                text-transform: uppercase;
-                color: #c4c4c4;
-                cursor: pointer;
-
-                transition: color 0.5s ease;
-                -o-transition: color 0.5s ease;
-                -moz-transition: color 0.5s ease;
-                -webkit-transition: color 0.5s ease;
-            }
-        }
-        .callToAction:hover {
-            background-color: #f7f7f7;
-
-            button {
-                cursor: pointer;
-                color: #707070;
-            }
-        }
       }
     .illustration{
         position: absolute;
@@ -191,6 +149,50 @@ body{
             stroke: none !important;
         }
     }   
+}
+
+a{
+  text-decoration: none;
+}
+
+.callToAction {
+  margin-top: 30px;
+  height: 70px;
+  width: 100%;
+  border-top: 1px solid #c4c4c4;
+  display: grid;
+  grid-template-columns: auto; 
+  background-color: #fff;
+  transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+
+  button {
+      align-self: center;
+      justify-self: center;
+      background: none;
+      outline: 0;
+      border: 0px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      color: #c4c4c4;
+      cursor: pointer;
+
+      transition: color 0.5s ease;
+      -o-transition: color 0.5s ease;
+      -moz-transition: color 0.5s ease;
+      -webkit-transition: color 0.5s ease;
+  }
+}
+.callToAction:hover {
+  background-color: #f7f7f7;
+
+  button {
+      cursor: pointer;
+      color: #707070;
+  }
 }
 
 .fade-enter-active {
