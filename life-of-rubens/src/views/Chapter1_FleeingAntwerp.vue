@@ -1,7 +1,7 @@
 <template>
   <div id="scene" class="home main-content">
 
-      <div class="layer" data-depth="0.6">
+      <div class="layer" data-depth="0.3">
         <div class="infoBox infoFleeingAntwerp">    
           <h1>Fleeing Antwerp</h1>
           <h2>1568</h2>
@@ -14,7 +14,7 @@
         </div>
       </div>
 
-      <div class="layer" data-depth="0.6">
+      <div class="layer" data-depth="0.3">
         <div class="infoBox infoJanAndMaria">    
           <h1>Jan & Maria</h1>
           <h2>1561</h2>
@@ -27,11 +27,11 @@
         </div>
       </div>
 
-      <div class="layer" data-depth="0.6">
+      <div class="layer" data-depth="0.3">
         <div class="infoBox infoInquisition">    
           <h1>The Spanish Inquisition</h1>
           <h2>1559 - 1567</h2>
-          <p class="infoText">King Philip II of Spain leaves the Northern provinces of Flanders and appoints Margaret Of Parma as governor of the Spanish Netherlands. Under her rule, persecution of the Protestants by the Catholic inquisition worsens and tensions begin to rise as Protestant preachers call for revolt.</p>     
+          <p class="infoText">King Philip II of Spain leaves the Northern provinces of his kingdom, the Spanish Netherlands, and appoints Margaret Of Parma as their governor. Under her rule persecution of the Protestants by the Catholic inquisition worsens and tensions begin to rise as Protestant preachers call for revolt.</p>     
           <a href="#">
            <div class="callToAction nxtInquisition">
             <button>Next</button>
@@ -41,10 +41,10 @@
       </div>
        
         <div class="janAndMaria illustration">
-          <svg data-depth="0.4" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495.52 373.04">
+          <svg data-depth="0.25" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495.52 373.04">
               <path class="layerBg" d="M3.89,357.67S20.33,311.89,66.19,304c0,0-20.52-17.18-1.41-53.4,8.44-17.34,24.66-19.78,24.66-19.78s5.34,4.22,7.78-3.11-1.78-8.89-1.78-8.89l2.67-7.56s13.11,5.56,8.22-22.89.45-22.22.45-22.22L105,145.67s10-18.45,20.89-23.56c0,0,2.22-9.78,9.78-11.55s19.55-1.78,19.55-1.78S145,101.44,166.56,90.33c0,0,9.11,4.23,16.44-1.55s21.11-6.22,21.11-6.22L217,85.89l17.11-2.22L243,85.44l8.89,5.12,6,9.33,1.78,10-.23,4s8.89,9.33,11.56,16l1.11-9.11a60.33,60.33,0,0,1,27.78-52.45c30.44-19.77,52,17.78,52,25.56l-3.56,1.78v.89S349.89,99,369,95.22s34.44-1.11,48.44,12,26,15.78,26,15.78,15.34,10,5.12,21.11L447,149l8.44,4.89s6.45,3.78,2.23,11.78-1.78,16.44-1.78,16.44l-4.22,7.11-1.78,11.11-4.67,5.34s5.11,10.22,3.11,17.11-5.33,11.33-4.66,22.44-2.67,16-15.78,15.78l-13.11-.22s-2.45,17.78,2.22,25.55l2-1.33s4.44,1.78-1.78,12.44l1.34,1.12s-.23,8.88,16.88,19.77c10.45,8.23,5.78,7.34,17.12,20.89s10.88,15.34,10.88,15.34,29.34,37.11,24.67,43.55v12.45s1.56-4.23,5.56-2.89,6.71,8.26-1.34,9.55c-5.55.89-4.89-4.89-4.89-4.89s-6.88,7.56-12.88,8.45c0,0,4.88,4.66.88,8.66s-9.33-.22-6.66-5.33c0,0-11.78,8.22-33.11,5.33,0,0,9.33,5.12.66,6.23-4.22.44-2.44-6.67-2.44-6.67s-55.33-4-74-37.11l-14.45-6.67,10,50.22-115.55-1.33-40.45,1.33H6.56s-2-25.11-3.56-40.88C.33,379.89,3.89,357.67,3.89,357.67Z" transform="translate(-2.01 -62.65)"/>
           </svg>       
-          <svg data-depth="0.4" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495.07 373.11">
+          <svg data-depth="0.25" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495.07 373.11">
             <g id="MariaClothes">
               <path class="cls-1 maria" d="M349.78,280.05" transform="translate(-2.47 -63.45)"/>
               <path class="cls-1 maria" d="M315.73,270.58c.14-2.32,1.42-7.71,4.62-7.1s2.94,6.83,6.63,8,5.7-1.71,8,0-.18,8.12,2.28,10.27,9.69-2.85,12.54-1.71,4,8.55,7.42,10.26,8.52-2.12,10.83-1.14,3.66,7.41,5.7,7.41c4,0,6.57-4.71,11.07-4.71,3,0,4.6,2.79,7.68,2.79,4.6,0,6.51-5.35,11.53-5.35,1.87,0,3.26.83,5.15.83,3.53,0,7-3.28,10-5.42l.9.39a9,9,0,0,1,.3,2.4,18.61,18.61,0,0,1-2.13,7.95l-.05,0c-.79,1.1-.18.75-.72,2-.07,0-14.62,10.27-40.72,10.27-13.53,0-37.91-7.62-48.32-23.07-11.23-16.67-8.78-9.36-15.25-14.15h-.34l-7.55,6.71" transform="translate(-2.47 -63.45)"/>
@@ -246,10 +246,10 @@
         </div>
 
         <div class="inquisition illustration">
-          <svg data-depth="0.3" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 426.72 491.1">
+          <svg data-depth="0.2" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 426.72 491.1">
             <path class="layerBg" d="M154.55,495.55H68.78l-2.67-7.22s-28.89-4.44-28-74.22C38,402.7,40.48,402,40.48,386s-2.67-13.63-3.11-26.07.89-59.41.89-59.41-.15-52.74-1.33-56.89.14-54.66,12.44-77.33c-.44.44,5.19-11.7,5.19-11.7s8.74-17.34,12.59-20.45l2.37-3.26s9.63-18.66,67.26-51.7l.59-1.93s-5.48-1.33-7.41-12.29,4.15-11.41,4.15-11.41-3-30.22,22.37-43c9.07-4.69,24.87-4.73,34.22-1.34,5.63,1.93,11.62,9.7,14.52,16.59,0,0,2.22,12.6.89,16.3s1.48,15.56,1.48,15.56a137.51,137.51,0,0,1-2.66,15.4l-1.49,1.63-.14,1.78,3.7,4.74.89,6.52v4.89s4.74,3.7,4.74,9.48a59,59,0,0,1,30.07,34.52l1-.15-.3-4s17.93-35,33.49-58.07c7.11-10.82,17.33-45,17.33-45s4.3-13.33,15.85-14.81l5.48-4.75,15.56-5.36,29,2.55a67.3,67.3,0,0,0,7.7,6.67c9.54,6.9,24.22,20.77,20.3,53.18l.59,3.41,5.92,9.48,1.78,1.33,3.41,6.37s10.37,15.71,16.59,22.67S440,160.78,442.7,184.63l11.41,65.93s1.48,6.66,2.37,9.18.15,11.26.15,11.26.89,22.37,4.74,37.63.74,35.7.74,35.7-3.55,64-4.74,71.71-3.56,32.59-3.56,32.59l-40.74,15.11-4-1.18-128,15.7-16.44-5.63Z" transform="translate(-36.58 -4.45)"/>
           </svg>
-          <svg data-depth="0.3" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 427.8 491.61">
+          <svg data-depth="0.2" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 427.8 491.61">
             <g id="RInquisitorRobes">
               <path class="cls-1 inquisitor1" d="M137.9,77.76c-2,3.31-5.05,8.66-5.05,12.64,0,.47,10,39.46,33.56,39.46.13-.13,9.28,2.37,9.41,2.25.44-.05,12.64,0,19-6.32" transform="translate(-36.1 -3.95)"/>
               <path class="cls-1 inquisitor1" d="M214.16,102.9l-.3-.31c29.8,13.88,37.66,58,37.93,82.88a1.77,1.77,0,0,1,.35.61" transform="translate(-36.1 -3.95)"/>
@@ -471,7 +471,7 @@
         </div>
 
         <div class="skyline illustration">
-          <svg data-depth="0.2" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1086.99 586.7">
+          <svg data-depth="0.15" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1086.99 586.7">
             <g id="HouseOne">
               <path class="cls-1 house1" d="M158,627.59c7.68.95,3.35.45,28.51.45,14.7,0,29.38-.39,44.18-.39" transform="translate(-56.06 -305.96)"/>
               <path class="cls-1 house1" d="M106.11,678.42c.35,23.5,5.12,55.34,5.12,79,0,26,0,33.28,0,46,0,7.54-1.52,19.18-1.52,28.92,0,12.64,1.52,29.41,1.52,39.2" transform="translate(-56.06 -305.96)"/>
@@ -684,14 +684,12 @@ export default {
 
     var nxtJanAndMaria = document.querySelector('.nxtJanAndMaria');
     nxtJanAndMaria.addEventListener('click', function(){
-      console.log("nxtJanAndMaria clicked");
       tlInquisition.play();
-    })
+    });
     var nxtInquisition = document.querySelector('.nxtInquisition');
     nxtInquisition.addEventListener('click', function(){
-      console.log("nxtInquisition clicked");
       tlSkyline.play();
-    })
+    });
 
     var tlJanAndMaria = new TimelineLite();
     var tlInquisition = new TimelineLite({ paused: true });
@@ -757,8 +755,8 @@ export default {
 
   display: none;
   opacity: 0;
-  top: 100px;
-  left: 1100px;
+  top: 250px;
+  left: 220px;
   width: 450px;
 }
        
