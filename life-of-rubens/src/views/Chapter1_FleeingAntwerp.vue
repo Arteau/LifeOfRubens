@@ -5,8 +5,8 @@
         <div class="infoBox infoFleeingAntwerp">    
           <h1>Fleeing Antwerp</h1>
           <h2>1568</h2>
-          <p class="infoText">Peter Paul's parents were Jan Rubens and Maria Pypelincks. In 1568 they fled Antwerp out of fear for prosecution by the Catholic inquisition, seeing as Jan was a Calvinist Protestant, they weren't welcome in 16th century Antwerp.</p>     
-          <router-link to="/timeline/Chapter1_JanAndMariaWithChildren">
+          <p class="infoText">The tensions between the Protestant revolutionaries and their Spanish rulers lead to a war for Dutch and Flemish independence known as The Eighty Years' War. It is also in this year that Jan and Maria flee Antwerp to travel to Cologne, hoping to escape persecution by the inquisition.</p>     
+          <router-link to="/timeline/Chapter1_Cologne">
            <div class="callToAction">
             <button>Next</button>
            </div>
@@ -16,9 +16,9 @@
 
       <div class="layer" data-depth="0.6">
         <div class="infoBox infoJanAndMaria">    
-          <h1>Peter Paul's Parents</h1>
-          <!-- <h2>Jan Rubens & Maria Pypelincks</h2> -->
-          <p class="infoText">Peter Paul's parents were Jan Rubens and Maria Pypelincks. Jan was a renowned magistrate from a well off merchant family, and Maria was the daughter of a wealthy tapestry manufacturer.</p>     
+          <h1>Jan & Maria</h1>
+          <h2>1561</h2>
+          <p class="infoText">Jan Rubens is a renowned lawyer and a well known figure with the nobility and politicians of Antwerp. He marries the wealthy Maria Pypelinckx. He is thirty-one and she is twenty-three. They are both Calvinist Protestants. Jan becomes a magistrate for the city of Antwerp.</p>     
           <a href="#">
            <div class="callToAction nxtJanAndMaria">
             <button>Next</button>
@@ -29,9 +29,9 @@
 
       <div class="layer" data-depth="0.6">
         <div class="infoBox infoInquisition">    
-          <h1>The Catholic Inquisition</h1>
-          <!-- <h2>Jan Rubens & Maria Pypelincks</h2> -->
-          <p class="infoText">The Spanish Netherlands of the time were what you could call revolutionary when it came to religion. Calvinist Protestantism was rising, to great displeasement of the Catholic Church.</p>     
+          <h1>The Spanish Inquisition</h1>
+          <h2>1559 - 1567</h2>
+          <p class="infoText">King Philip II of Spain leaves the Northern provinces of Flanders and appoints Margaret Of Parma as governor of the Spanish Netherlands. Under her rule, persecution of the Protestants by the Catholic inquisition worsens and tensions begin to rise as Protestant preachers call for revolt.</p>     
           <a href="#">
            <div class="callToAction nxtInquisition">
             <button>Next</button>
@@ -738,7 +738,7 @@ export default {
 .infoFleeingAntwerp{
   opacity: 0;
   width: 450px;
-  top: 400px;
+  top: 350px;
   left: 200px;
 
 }
