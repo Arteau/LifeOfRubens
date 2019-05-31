@@ -5,7 +5,7 @@
         <div class="infoBox infoPhilipRubens">    
             <h1>Philip Rubens</h1>
             <h2>1574</h2>
-            <p class="infoText">On the 27th of April Jan and Maria's first son is born. They name him Philip.</p>     
+            <p class="infoText">On the 27th of April, Jan and Maria's first son is born. They name him Philip.</p>     
             <a href="#">
                 <div class="callToAction nxtPhilipRubens">
                     <button>Next</button>
@@ -17,7 +17,7 @@
         <div class="infoBox infoPeterPaulRubens">    
             <h1>Peter Paul Rubens</h1>
             <h2>1577</h2>
-            <p class="infoText">On the 28th of June Jan and Maria's second son is born. They name him Peter Paul.</p>     
+            <p class="infoText">On the 28th of June, Jan and Maria's second son is born. They name him Peter Paul.</p>     
             <router-link to="/timeline/Chapter1_Outro">
                 <div class="callToAction">
                     <button>Next</button>
