@@ -432,9 +432,8 @@ export default {
 
   width: auto;
   height: auto;
-  top: -10px;
+  top: -30px;
   left: 900px;
-
 
 
   svg {
@@ -444,23 +443,6 @@ export default {
   }
 }
 
-.janWithFilip {
-  stroke: #000;
-  stroke-width: 2px;
-
-  z-index: -2;
-
-  width: auto;
-  height: auto;
-  top: 100px;
-  left: 630px;
-
-  svg {
-    position: relative;
-    width: auto;
-    height: 700px;
-  }
-}
 
 
 </style>
