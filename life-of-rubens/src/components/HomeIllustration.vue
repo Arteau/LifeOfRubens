@@ -1,18 +1,4 @@
 <template>
-  <div id="scene" class="home main-content">
-
-      <div class="layer" data-depth="0.3">
-        <div class="infoBox">    
-          <h1>Peter Paul Rubens</h1>
-          <h2>1577 - 1640</h2>
-          <p class="infoText">Take an animated journey to the 16th and 17th century, and learn about the life of Flemish painter Peter Paul Rubens.</p>     
-          <router-link to="/timeline/Chapter1_Intro">
-           <div class="callToAction">
-            <button>Begin</button>
-           </div>
-          </router-link>
-        </div>
-      </div>
       <div class="illustration">       
           <svg data-depth="0.2" class="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402.24 487.95">
             <g id="hat">
@@ -102,64 +88,5 @@
               <path class="cls-1" d="M280.09,192.88a37,37,0,0,0,11.34,1.74,52.23,52.23,0,0,0,7.64-.61" transform="translate(-49.03 -4.14)"/>
             </g>
           </svg>
-      </div>
-        
-  </div>
+        </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import { TweenMax } from 'gsap'
-import Parallax from 'parallax-js'
-import '../gsap-bonus/DrawSVGPlugin'
-
-export default {
-  
-  name: 'home',
-  mounted() {
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene, {
-      relativeInput: true,
-      pointerEvents: true,
-      selector: '.layer',
-      frictionX: 0.03,
-      frictionY: 0.03
-    });
-    console.log("mounted home")
-    TweenMax.staggerFrom(".cls-1", 2, {drawSVG:0}, 0.1);
-  }
-  // components: {
-  // }
-}
-</script>
-
-<style lang="scss" scoped>
-.cls-1{
-  stroke: #000;
-  stroke-width: 1.5px;
-  fill: none;
-}
-
-.infoBox {
-  position: absolute;
-  top: 500px;
-  left: 1000px;
-  width: 400px;
-  height: auto;
-}
-
-.illustration {
-    top: 0;
-    left: 15%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-            
-    svg {
-      position: relative;
-      height: 1000px;
-      width: auto;     
-    }
-}
-
-</style>

@@ -31,7 +31,7 @@
         <div class="infoBox infoInquisition">    
           <h1>The Spanish Inquisition</h1>
           <h2>1559 - 1567</h2>
-          <p class="infoText">King Philip II of Spain leaves the Northern provinces of his kingdom, the Spanish Netherlands, and appoints Margaret Of Parma as their governor. Under her rule persecution of the Protestants by the Catholic inquisition worsens and tensions begin to rise as Protestant preachers call for revolt.</p>     
+          <p class="infoText">King Philip II of Spain leaves his kingdom's northern provinces, the Spanish Netherlands, and appoints Margaret Of Parma as their governor. Under her rule persecution of the Protestants by the Catholic inquisition worsens and tensions begin to rise as Protestant preachers call for revolt.</p>     
           <a href="#">
            <div class="callToAction nxtInquisition">
             <button>Next</button>
@@ -736,7 +736,7 @@ export default {
 .infoFleeingAntwerp{
   opacity: 0;
   width: 450px;
-  top: 350px;
+  top: 400px;
   left: 200px;
 
 }
@@ -746,8 +746,8 @@ export default {
 
   // opacity: 0;
   top: 450px;
-  left: 500px;
-  width: 450px;
+  left: 450px;
+  width: 500px;
 }
 
 .infoInquisition{
@@ -756,8 +756,8 @@ export default {
   display: none;
   opacity: 0;
   top: 250px;
-  left: 220px;
-  width: 450px;
+  left: 200px;
+  width: 500px;
 }
        
 .janAndMaria {

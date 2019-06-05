@@ -5,7 +5,7 @@
     <div class="fullWrapper">
       <div class="paragraphWrapper">
         <p class="timespan">1577 - 1589</p>
-        <p>Anna Of Saxony dies the same year Peter Paul is born. She is the reason the Rubens family lives in exile in Siegen. So upon receiving news of her death, Maria writes a letter to William Of Orange-Nassau asking him to undo their exile and grant them permission to move back to Cologne. They're granted this permission, and move back to Cologne that year.</p>
+        <p>Upon receiving news of Anna's demise, Maria writes a letter to William Of Orange-Nassau asking him to undo their exile and grant them permission to move back to Cologne. They're granted this permission, and move back to Cologne that year.</p>
         <p>Jan, Maria, and their two children live a quiet live in Cologne until Jan dies in 1587. He is buried in the Saint Peter's Church in Cologne where Maria had a gravestone installed honoring his intellect, scholarly qualities, and twenty-five years of marriage without arguments.</p>
         <p>Two years after her husbands' death, Maria moves back to Antwerp with her two sons and reconverts to Catholicism.</p>
       </div>

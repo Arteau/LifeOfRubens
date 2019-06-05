@@ -5,7 +5,7 @@
         <div class="infoBox infoPhilipRubens">    
             <h1>Philip Rubens</h1>
             <h2>1574</h2>
-            <p class="infoText">On the 27th of April, Jan and Maria's first son is born. They name him Philip.</p>     
+            <p class="infoText">The war between the Dutch and the Spanish escalates further after a deciding victory for the Spanish at the Battle of Mookerheyde. William of Orange-Nassau's younger brothers Louis and Henry of Nassau both perish in this battle. Barely two weeks later, on the 27th April, Philip Rubens is born. He will grow up to be a famous lawyer and administrator, just like his father.</p>     
             <a href="#">
                 <div class="callToAction nxtPhilipRubens">
                     <button>Next</button>
@@ -17,7 +17,7 @@
         <div class="infoBox infoPeterPaulRubens">    
             <h1>Peter Paul Rubens</h1>
             <h2>1577</h2>
-            <p class="infoText">On the 28th of June, Jan and Maria's second son is born. They name him Peter Paul.</p>     
+            <p class="infoText">Even though the Spanish had the upper hand in the war, a lot of their forces mutinied because they hadn’t been paid in two years. After sacking the cities of Aalst and Antwerp, in February a treaty called the ‘Eternal Edict’ was signed, stating that the Spanish would withdraw from Flanders for the time being. In the summer of that year Peter Paul Rubens was born in Siegen, on the 28th of June. In December the Rubens family received news of the death of Anna of Saxony, the reason of their exile.</p>     
             <router-link to="/timeline/Chapter1_Outro">
                 <div class="callToAction">
                     <button>Next</button>
@@ -816,15 +816,15 @@ export default {
 
 .infoPhilipRubens{
 //   opacity: 0;
-  width: 450px;
-  top: 400px;
-  left: 200px;
+  width: 500px;
+  top: 350px;
+  left: 120px;
 
 }
 
 .infoPeterPaulRubens {
-    width: 450px;
-    top: 300px;
+    width: 500px;
+    top: 250px;
     left: 1350px;
 }
   
@@ -837,7 +837,7 @@ export default {
   width: auto;
   height: auto;
   top: 250px;
-  left: 900px;
+  left: 870px;
 
 
 
@@ -857,7 +857,7 @@ export default {
   width: auto;
   height: auto;
   top: 100px;
-  left: 630px;
+  left: 600px;
 
   svg {
     position: relative;

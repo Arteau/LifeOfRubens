@@ -3,7 +3,7 @@
     <div class="fullWrapper">
       <div class="titleWrapper">
         <h2 class="chapter">Chapter 2</h2>
-        <h1 class="title">The young painter</h1>
+        <h1 class="title">The Young Painter</h1>
         <hr>
       </div>
       <div class="paragraphWrapper">
@@ -60,10 +60,11 @@ export default {
  
     .titleWrapper{
       justify-self: center;
+      width: auto;
       height: 80px;
 
       hr{
-        width: 355px;
+        width: 100%;
         margin-left: 0;
         color: #c4c4c4;
         background-color: #c4c4c4;
@@ -83,7 +84,8 @@ export default {
       .title{
         margin: 0;
         padding: 0;
-        width: 355px;
+        text-align: center;
+        width: 100%;
         line-height: 40px;
         font-family: 'Playfair Display';
         color: #707070;

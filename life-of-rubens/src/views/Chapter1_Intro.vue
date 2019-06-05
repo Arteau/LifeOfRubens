@@ -61,9 +61,10 @@ export default {
     .titleWrapper{
       justify-self: center;
       height: 80px;
+      width: auto;
 
       hr{
-        width: 355px;
+        width: 100%;
         margin-left: 0;
         color: #c4c4c4;
         background-color: #c4c4c4;
@@ -83,7 +84,7 @@ export default {
       .title{
         margin: 0;
         padding: 0;
-        width: 355px;
+        width: 100%;
         line-height: 40px;
         font-family: 'Playfair Display';
         color: #707070;

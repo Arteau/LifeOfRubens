@@ -6,9 +6,9 @@
       <div class="paragraphWrapper">
         <p class="timespan">1568 - 1577</p>
         <p>In Cologne Jan Rubens becomes the judicial advisor to Princess Anna of Saxony, the wife of Prince William of Orange-Nassau. It is this William of Orange-Nassau who started the Eighty Years' War for Dutch and Flemish independence against the Habsburgs of Spain.</p>
-        <p>Princess Anna has need of Jan's services as a lawyer because she is displeased with her marriage, and wants to reclaim her dowry. Jan and Princess Anna have an affair, which is quickly found out by William of Orange-Nassau. By the time their affair is discovered however, Anna of Saxony is pregnant with Jan's child.</p>
-        <p>Because of this inexcusable offense, Jan is convicted of adultery and might be sentenced to die. Afraid for her husband's life and in spite of his unfaithfulness towards her, Maria Pypelinckx writes letters to the Orange-Nassau family pleading to let her husband go free. It is because of her bravery that Jan Rubens is allowed to live, but is exiled to the town of Siegen.</p>
-        <p>In Siegen Jan and Maria live a quiet life together, as Jan is forbidden to practice law as long as Anna of Saxony is still alive. It is here, in Siegen, that their two sons Philip and Peter Paul are born.</p>
+        <p>Princess Anna has need of Jan's services as a lawyer because she is displeased with her marriage, and wants to reclaim her dowry. Jan and Princess Anna have an affair, which is quickly found out by Prince William. By the time their affair is discovered however, Princess Anna is pregnant with Jan's child.</p>
+        <p>Because of this inexcusable offense, Jan is convicted of adultery and might be sentenced to die. Afraid for her husband's life and in spite of his unfaithfulness towards her, Maria Pypelinckx writes letters to the Orange-Nassau family pleading to let her husband go free. It is because of her bravery that Jan Rubens is allowed to live. However, Jan and Maria are exiled to the town of Siegen.</p>
+        <p>In Siegen Jan and Maria live a quiet life together, as Jan is forbidden to practice law as long as Anna of Saxony is still alive. It is here that their two sons Philip and Peter Paul are born.</p>
       
 
       </div>

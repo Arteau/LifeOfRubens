@@ -20,6 +20,16 @@ body{
     grid-template-areas: 
     "iface";
     background-color: $bgColor;
+    
+    p {
+      line-height: 24px;
+      letter-spacing: 0.3px;
+    }
+
+    h1{
+      font-family: 'Playfair Display', serif;
+      letter-spacing: 1.5px;
+    }
 }
 
 #app {
@@ -39,6 +49,7 @@ body{
             min-height: 100%;
 
             nav {
+                font-family: 'Montserrat Semibold', sans-serif;
                 background: none;
                 display: grid;
                 grid-template-columns: 200px auto;
@@ -120,7 +131,6 @@ body{
           margin-right: 50px;
           margin-bottom: 0px;
           line-height: auto;
-          font-family: 'Playfair Display', serif;
         }
 
         h2{
@@ -137,7 +147,9 @@ body{
             margin-right: 50px;
             font-family: 'Montserrat', sans-serif;
         }
-
+        p {
+          font-size: 16px;
+        }
 
       }
     .illustration{
