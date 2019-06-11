@@ -1,21 +1,19 @@
+
+
 <template>
   <div class="home main-content">
     <div class="fullWrapper">
-      <div class="titleWrapper">
-        <h2 class="chapter">Chapter 1</h2>
-        <h1 class="title">Peter Paul's Parents</h1>
-        <hr>
-      </div>
       <div class="paragraphWrapper">
-        <p class="timespan">1568 - 1586</p>
-        <p>Peter Paul Rubens' parents were Maria Pypelinckx and Jan Rubens. His mother's father was a famous tapestry manufactorer and his father came from a renowned mercantile family. They lived in the great port city of Antwerp.</p>
-        <p>The second half of the sixteenth century was a time of great unrest in Antwerp, seeing as the Protestant reformation was just starting to get taken seriously by the Spanish rulers. Seriously enough to dispatch the inquisition to the Spanish Netherlands and Flanders, and persecute followers of the Protestant belief, such as Peter Paul's Parents.</p>
-        <p>Let's travel to the city of Antwerp of this time period, and follow Jan and Maria in their journey to escape Catholic persecution.</p>
+        <p class="timespan">1568 - 1577</p>
+        <p>In Cologne Jan Rubens becomes the judicial advisor to Princess Anna of Saxony, the wife of Prince William of Orange-Nassau. It is this William of Orange-Nassau who started the Eighty Years' War for Dutch and Flemish independence against the Habsburgs of Spain.</p>
+        <p>Princess Anna has need of Jan's services as a lawyer because she is displeased with her marriage, and wants to reclaim her dowry. Jan and Princess Anna have an affair, which is quickly found out by Prince William. By the time their affair is discovered however, Princess Anna is pregnant with Jan's child.</p>
+        <p>Because of this inexcusable offense, Jan is convicted of adultery and might be sentenced to die. Afraid for her husband's life and in spite of his unfaithfulness towards her, Maria Pypelinckx writes letters to the Orange-Nassau family pleading to let her husband go free. It is because of her bravery that Jan Rubens is allowed to live. However, Jan and Maria are exiled to the town of Siegen.</p>
+        <p>In Siegen Jan and Maria live a quiet life together, as Jan is forbidden to practice law as long as Anna of Saxony is still alive. It is here that their two sons Philip and Peter Paul are born.</p>
       
 
       </div>
       <div class="buttonWrapper">
-        <router-link to="/timeline/Chapter1_FleeingAntwerp">
+        <router-link to="/timeline/Chapter1/JanAndMariaWithChildren">
           <div class="callToAction">
             <button>Next</button>
           </div>
@@ -28,10 +26,7 @@
 
 <script>
 // @ is an alias to /src
-import { TweenMax } from 'gsap'
-import { TimelineLite } from 'gsap'
-import '../gsap-bonus/DrawSVGPlugin'
-import Parallax from 'parallax-js'
+
 
 export default {
   
@@ -61,10 +56,9 @@ export default {
     .titleWrapper{
       justify-self: center;
       height: 80px;
-      width: auto;
 
       hr{
-        width: 100%;
+        width: 355px;
         margin-left: 0;
         color: #c4c4c4;
         background-color: #c4c4c4;
@@ -84,7 +78,7 @@ export default {
       .title{
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 355px;
         line-height: 40px;
         font-family: 'Playfair Display';
         color: #707070;

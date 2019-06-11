@@ -6,7 +6,7 @@
           <h1>Fleeing Antwerp</h1>
           <h2>1568</h2>
           <p class="infoText">The tensions between the Protestant revolutionaries and their Spanish rulers lead to a war for Dutch and Flemish independence known as The Eighty Years' War. It is also in this year that Jan and Maria flee Antwerp to travel to Cologne, hoping to escape persecution by the inquisition.</p>     
-          <router-link to="/timeline/Chapter1_Cologne">
+          <router-link to="/timeline/Chapter1/Cologne">
            <div class="callToAction">
             <button>Next</button>
            </div>
@@ -667,7 +667,7 @@
 // @ is an alias to /src
 import { TweenMax } from 'gsap'
 import { TimelineLite } from 'gsap'
-import '../gsap-bonus/DrawSVGPlugin'
+import '../../gsap-bonus/DrawSVGPlugin'
 import Parallax from 'parallax-js'
 
 export default {

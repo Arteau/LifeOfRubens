@@ -18,7 +18,7 @@
             <h1>Peter Paul Rubens</h1>
             <h2>1577</h2>
             <p class="infoText">Even though the Spanish had the upper hand in the war, a lot of their forces mutinied because they hadn’t been paid in two years. After sacking the cities of Aalst and Antwerp, in February a treaty called the ‘Eternal Edict’ was signed, stating that the Spanish would withdraw from Flanders for the time being. In the summer of that year Peter Paul Rubens was born in Siegen, on the 28th of June. In December the Rubens family received news of the death of Anna of Saxony, the reason of their exile.</p>     
-            <router-link to="/timeline/Chapter1_Outro">
+            <router-link to="/timeline/Chapter1/Outro">
                 <div class="callToAction">
                     <button>Next</button>
                 </div>
@@ -756,7 +756,7 @@
 // @ is an alias to /src
 import { TweenMax } from 'gsap'
 import { TimelineLite } from 'gsap'
-import '../gsap-bonus/DrawSVGPlugin'
+import '../../gsap-bonus/DrawSVGPlugin'
 import Parallax from 'parallax-js'
 
 export default {

@@ -15,7 +15,7 @@
 
       </div>
       <div class="buttonWrapper">
-        <router-link to="/timeline/Chapter2_Oudenaerde">
+        <router-link to="/timeline/Chapter2/ArtisticTalent">
           <div class="callToAction">
             <button>Next</button>
           </div>
@@ -28,10 +28,6 @@
 
 <script>
 // @ is an alias to /src
-import { TweenMax } from 'gsap'
-import { TimelineLite } from 'gsap'
-import '../gsap-bonus/DrawSVGPlugin'
-import Parallax from 'parallax-js'
 
 export default {
   

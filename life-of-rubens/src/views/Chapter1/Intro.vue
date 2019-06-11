@@ -1,18 +1,23 @@
-
-
 <template>
   <div class="home main-content">
     <div class="fullWrapper">
+      <div class="titleWrapper">
+        <h2 class="chapter">Chapter 1</h2>
+        <h1 class="title">Peter Paul's Parents</h1>
+        <hr>
+      </div>
       <div class="paragraphWrapper">
-        <p class="timespan">1577 - 1589</p>
-        <p>Upon receiving news of Anna's demise, Maria writes a letter to William Of Orange-Nassau asking him to undo their exile and grant them permission to move back to Cologne. They're granted this permission, and move back to Cologne that year.</p>
-        <p>Jan, Maria, and their two children live a quiet live in Cologne until Jan dies in 1587. He is buried in the Saint Peter's Church in Cologne where Maria had a gravestone installed honoring his intellect, scholarly qualities, and twenty-five years of marriage without arguments.</p>
-        <p>Two years after her husbands' death, Maria moves back to Antwerp with her two sons and reconverts to Catholicism.</p>
+        <p class="timespan">1568 - 1586</p>
+        <p>Peter Paul Rubens' parents were Maria Pypelinckx and Jan Rubens. His mother's father was a famous tapestry manufactorer and his father came from a renowned mercantile family. They lived in the great port city of Antwerp.</p>
+        <p>The second half of the sixteenth century was a time of great unrest in Antwerp, seeing as the Protestant reformation was just starting to get taken seriously by the Spanish rulers. Seriously enough to dispatch the inquisition to the Spanish Netherlands and Flanders, and persecute followers of the Protestant belief, such as Peter Paul's Parents.</p>
+        <p>Let's travel to the city of Antwerp of this time period, and follow Jan and Maria in their journey to escape Catholic persecution.</p>
+      
+
       </div>
       <div class="buttonWrapper">
-        <router-link to="/timeline/Chapter2_Intro">
+        <router-link to="/timeline/Chapter1/FleeingAntwerp">
           <div class="callToAction">
-            <button>Chapter 2</button>
+            <button>Next</button>
           </div>
         </router-link>
       </div>
@@ -23,10 +28,6 @@
 
 <script>
 // @ is an alias to /src
-import { TweenMax } from 'gsap'
-import { TimelineLite } from 'gsap'
-import '../gsap-bonus/DrawSVGPlugin'
-import Parallax from 'parallax-js'
 
 export default {
   
@@ -56,9 +57,10 @@ export default {
     .titleWrapper{
       justify-self: center;
       height: 80px;
+      width: auto;
 
       hr{
-        width: 355px;
+        width: 100%;
         margin-left: 0;
         color: #c4c4c4;
         background-color: #c4c4c4;
@@ -78,7 +80,7 @@ export default {
       .title{
         margin: 0;
         padding: 0;
-        width: 355px;
+        width: 100%;
         line-height: 40px;
         font-family: 'Playfair Display';
         color: #707070;
