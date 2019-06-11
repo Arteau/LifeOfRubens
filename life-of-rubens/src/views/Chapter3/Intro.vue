@@ -2,12 +2,12 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="titleWrapper">
-        <h2 class="chapter">Chapter 2</h2>
-        <h1 class="title">The Young Painter</h1>
+        <h2 class="chapter">Chapter 3</h2>
+        <h1 class="title">New Horizons</h1>
         <hr>
       </div>
       <div class="paragraphWrapper">
-        <p class="timespan">1587 - 1599</p>
+        <p class="timespan">1600 - 1621</p>
         <p>Peter Paul Rubens' parents were Maria Pypelinckx and Jan Rubens. His mother's father was a famous tapestry manufactorer and his father came from a renowned mercantile family. They lived in the great port city of Antwerp.</p>
         <p>The second half of the sixteenth century was a time of great unrest in Antwerp, seeing as the Protestant reformation was just starting to get taken seriously by the Spanish rulers. Seriously enough to dispatch the inquisition to the Spanish Netherlands and Flanders, and persecute followers of the Protestant belief, such as Peter Paul's Parents.</p>
         <p>Let's travel to the city of Antwerp of this time period, and follow Jan and Maria in their journey to escape Catholic persecution.</p>

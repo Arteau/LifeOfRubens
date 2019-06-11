@@ -8,7 +8,11 @@ import Chapter1_Cologne from './views/Chapter1/Cologne.vue'
 import Chapter1_JanAndMariaWithChildren from './views/Chapter1/JanAndMariaWithChildren'
 import Chapter1_Outro from './views/Chapter1/Outro.vue'
 import Chapter2_Intro from './views/Chapter2/Intro.vue'
-import Chapter2_ArtisticTalent from './views/Chapter2/ArtisticTalent.vue'
+import Chapter2_Oudenaerde from './views/Chapter2/Oudenaerde.vue'
+import Chapter2_Apprenticeships from './views/Chapter2/Apprenticeships.vue'
+import Chapter2_MasterPainter from './views/Chapter2/MasterPainter.vue'
+import Chapter2_Outro from './views/Chapter2/Outro.vue'
+import Chapter3_Intro from './views/Chapter3/Intro.vue'
 
 Vue.use(Router)
 
@@ -55,10 +59,31 @@ export default new Router({
       component: Chapter2_Intro
     },
     {
-      path: '/timeline/Chapter2/ArtisticTalent',
-      name: 'Chapter2_ArtisticTalent',
-      component: Chapter2_ArtisticTalent
+      path: '/timeline/Chapter2/Oudenaerde',
+      name: 'Chapter2_Oudenaerde',
+      component: Chapter2_Oudenaerde
+    },
+    {
+      path: '/timeline/Chapter2/Apprenticeships',
+      name: 'Chapter2_Apprenticeships',
+      component: Chapter2_Apprenticeships
+    },  
+    {
+      path: '/timeline/Chapter2/MasterPainter',
+      name: 'Chapter2_MasterPainter',
+      component: Chapter2_MasterPainter
+    },  
+    {
+      path: '/timeline/Chapter2/Outro',
+      name: 'Chapter2_Outro',
+      component: Chapter2_Outro
+    },  
+    {
+      path: '/timeline/Chapter3/Intro',
+      name: 'Chapter3_Intro',
+      component: Chapter3_Intro
     }
+
 
   ]
 })

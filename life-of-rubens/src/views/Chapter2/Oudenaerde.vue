@@ -6,11 +6,11 @@
             <h1>Artistic talent.</h1>
             <h2>1589</h2>
             <p class="infoText">Placeholder text about how Rubens teaches himself how to draw in Oudenaerde at age thirteen by copying bible illustrations.</p>     
-            <a href="#">
-                <div class="callToAction nxtDrawingPeterPaul">
+            <router-link to="/timeline/Chapter2/Apprenticeships">
+                <div class="callToAction">
                     <button>Next</button>
                 </div>
-            </a>
+            </router-link>
         </div>
     </div>
 
