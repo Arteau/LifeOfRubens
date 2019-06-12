@@ -6,7 +6,7 @@
             <h1>Friends In Mantua</h1>
             <h2>1600</h2>
             <p class="infoText">Placeholder text about Rubens traveling to Italy and meeting duke vincenzo i gonzaga of mantua.</p>     
-            <router-link to="/timeline/Chapter3/ReturnToAntwerp">
+            <router-link to="/timeline/Chapter5/Outro">
                 <div class="callToAction">
                     <button>Next</button>
                 </div>
