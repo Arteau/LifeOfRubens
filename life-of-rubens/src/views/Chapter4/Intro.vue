@@ -15,7 +15,7 @@
 
       </div>
       <div class="buttonWrapper">
-        <router-link to="/timeline/Chapter4/DiMedici">
+        <router-link to="/timeline/Chapter4/DeMedici">
           <div class="callToAction">
             <button>Next</button>
           </div>

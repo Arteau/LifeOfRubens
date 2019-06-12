@@ -1353,31 +1353,21 @@ export default {
     var tlFriends = new TimelineLite();
 
     tlFriends.staggerFrom(".peterPaul", 1, {drawSVG:0}, -0.1, "peterPaul")
-    tlFriends.fromTo(".friendsBg", 1, {opacity:0}, {opacity:1}, "peterPaul+=1")
-    tlFriends.staggerFrom(".jan", 1, {drawSVG:0}, -0.1, "peterPaul+=3")
-    tlFriends.staggerFrom(".left", 1, {drawSVG:0}, 0.1, "peterPaul+=4")
-    tlFriends.staggerFrom(".right", 1, {drawSVG:0}, -0.1, "peterPaul+=4")
-    tlFriends.add( function(){ tlCathedral.play(); }, "peterPaul+=7")
+    .fromTo(".friendsBg", 1, {opacity:0}, {opacity:1}, "peterPaul+=1")
+    .staggerFrom(".jan", 1, {drawSVG:0}, -0.1, "peterPaul+=3")
+    .staggerFrom(".left", 1, {drawSVG:0}, 0.1, "peterPaul+=4")
+    .staggerFrom(".right", 1, {drawSVG:0}, -0.1, "peterPaul+=4")
+    .add( function(){ tlCathedral.play(); }, "peterPaul+=7")
 
     
     tlCathedral.staggerFrom(".cathedralCenter", 1, {drawSVG:0}, -0.1, "cathedralCenter")
-    tlCathedral.staggerFrom(".cathedralRightPillar", 1, {drawSVG:0}, -0.1, "cathedralCenter+=3")
-    tlCathedral.staggerFrom(".cathedralLeftPillar", 1, {drawSVG:0}, -0.1, "cathedralCenter+=3")
-    tlCathedral.staggerFrom(".cathedralRightWing", 1, {drawSVG:0}, -0.1, "cathedralCenter+=6")
-    tlCathedral.staggerFrom(".cathedralLeftWing", 1, {drawSVG:0}, -0.1, "cathedralCenter+=6")
-    tlCathedral.staggerFrom(".cathedralRoof", 1, {drawSVG:0}, -0.1, "cathedralCenter+=8")
-    tlCathedral.staggerFrom(".leftHouse", 1, {drawSVG:0}, -0.1, "cathedralCenter+=9")
-    tlCathedral.staggerFrom(".backBuilding", 1, {drawSVG:0}, 0.1, "cathedralCenter+=10")
-
-
-    // var tlAtelier = new TimelineLite();
-    // tlAtelier.staggerFrom(".masterRubensLines", 1, {drawSVG:0}, 0.1, "masterRubens")
-    // tlAtelier.fromTo(".masterRubensBg", 1, {opacity:0}, {opacity:1}, "masterRubens")
-    // tlAtelier.staggerFrom(".canvasLines", 2, {drawSVG:0}, 0.1, "masterRubens+=3")
-    // tlAtelier.fromTo(".canvasBg", 1, {opacity:0}, {opacity:1}, "masterRubens+=3")
-    // tlAtelier.staggerFrom(".tableLines", 2, {drawSVG:0}, 0.1, "masterRubens+=7")
-    // tlAtelier.fromTo(".tableBg", 1, {opacity:0}, {opacity:1}, "masterRubens+=9")
-    // tlAtelier.staggerFrom(".atelierLines", 2, {drawSVG:0}, 0.1, "masterRubens+=14")
+    .staggerFrom(".cathedralRightPillar", 1, {drawSVG:0}, -0.1, "cathedralCenter+=3")
+    .staggerFrom(".cathedralLeftPillar", 1, {drawSVG:0}, -0.1, "cathedralCenter+=3")
+    .staggerFrom(".cathedralRightWing", 1, {drawSVG:0}, -0.1, "cathedralCenter+=6")
+    .staggerFrom(".cathedralLeftWing", 1, {drawSVG:0}, -0.1, "cathedralCenter+=6")
+    .staggerFrom(".cathedralRoof", 1, {drawSVG:0}, -0.1, "cathedralCenter+=8")
+    .staggerFrom(".leftHouse", 1, {drawSVG:0}, -0.1, "cathedralCenter+=9")
+    .staggerFrom(".backBuilding", 1, {drawSVG:0}, 0.1, "cathedralCenter+=10")
 
   }
 }

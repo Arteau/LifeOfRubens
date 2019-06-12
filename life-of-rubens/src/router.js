@@ -18,7 +18,7 @@ import Chapter3_ReturnToAntwerp from './views/Chapter3/ReturnToAntwerp.vue'
 import Chapter3_WifeAndHouse from './views/Chapter3/WifeAndHouse.vue'
 import Chapter3_Outro from './views/Chapter3/Outro.vue'
 import Chapter4_Intro from './views/Chapter4/Intro.vue'
-import Chapter4_DiMedici from './views/Chapter4/DiMedici.vue'
+import Chapter4_DeMedici from './views/Chapter4/DeMedici.vue'
 import Chapter4_BusiestMan from './views/Chapter4/BusiestMan.vue'
 import Chapter4_TragicLoss from './views/Chapter4/TragicLoss.vue'
 import Chapter4_Outro from './views/Chapter4/Outro.vue'
@@ -123,9 +123,9 @@ export default new Router({
       component: Chapter4_Intro
     },  
     {
-      path: '/timeline/Chapter4/DiMedici',
-      name: 'Chapter4_DiMedici',
-      component: Chapter4_DiMedici
+      path: '/timeline/Chapter4/DeMedici',
+      name: 'Chapter4_DeMedici',
+      component: Chapter4_DeMedici
     },  
     {
       path: '/timeline/Chapter4/BusiestMan',
