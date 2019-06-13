@@ -4,8 +4,9 @@
     <div class="layer" data-depth="0.2">
         <div class="infoBox infoDrawingPeterPaul">    
             <h1>Artistic talent.</h1>
-            <h2>1589</h2>
-            <p class="infoText">Placeholder text about how Rubens teaches himself how to draw in Oudenaerde at age thirteen by copying bible illustrations.</p>     
+            <h2>1590</h2>
+            <p class="infoText">To the young Peter Paul life at House Lalaing was nothing but boring. There was one thing he loved doing however and that was copying the pictures in his Bible. He more or less taught himself basic drawing skills by doing this, as these pictures were relatively complex illustrations by swiss artist Tobias Stimmer.</p>     
+            <p class="infoText">Soon it was clear as day that he wanted to become an artist, not an aristocrat. So the young painter begged his mother for an artistic education instead of this boring aristocratic life. Maria first insisted on Peter Paul finishing his time as a page, but after his relentless and stubborn begging she finally obliged.</p>
             <router-link to="/timeline/Chapter2/Apprenticeships">
                 <div class="callToAction">
                     <button>Next</button>
@@ -17,8 +18,9 @@
     <div class="layer" data-depth="0.2">
         <div class="infoBox infoOudenaerdeCityHall">    
             <h1>Oudenaerde</h1>
-            <h2>1589</h2>
-            <p class="infoText">Placeholder text about how Rubens got a humanistic upbringing but had to go serve as a page in Oudenaerde because of a lack of funds, and the desire of his mother for him to be aquainted with the noble life.</p>     
+            <h2>1587</h2>
+            <p class="infoText">Marguerite de Ligne lives in Oudenaerde with her husband Philip de Lalaing. They are a renowned and noble family, Marguerite is the daughter of the Duke of Arenberg, and Philip is a Count who was once loyal to the Spanish King but now supports Dutch and Flemish independence.</p>     
+            <p class="infoText">The first stone of the town hall of Oudenaerde pictured here was laid by Philip de Lalaing.</p>
             <a href="#">
                 <div class="callToAction nxtOudenaerdeCityHall">
                     <button>Next</button>
@@ -31,7 +33,9 @@
         <div class="infoBox infoHouseLalaing">    
             <h1>House Lalaing</h1>
             <h2>1589</h2>
-            <p class="infoText">Placeholder text about how Rubens was a page for the noble family of Ligne-Arenberg/Lalaing.</p>     
+            <p class="infoText">Peter Paul was to learn the noble way of life. This meant rigorous routine and strict etiquette, things the stubborn and exceptionally intelligent boy hated with passion. It was quickly apparent that the life at court was not the life for Peter Paul.</p>     
+            <p class="infoText">Ironically enough, even though Peter Paul doesn’t finish his education as a page, he will go on to be an honored guest at multiple royal courts across Europe later in his life.</p>
+          
             <a href="#">
                 <div class="callToAction nxtHouseLalaing">
                     <button>Next</button>
@@ -1255,24 +1259,24 @@ export default {
 
 .infoDrawingPeterPaul {
   //   opacity: 0;
-  width: 450px;
-  top: 400px;
+  width: 600px;
+  top: 200px;
   left: 200px;
   display: none;
 
 }
 
 .infoOudenaerdeCityHall {
-  width: 450px;
+  width: 550px;
   top: 300px;
-  left: 1000px;
+  left: 900px;
 }
 
 .infoHouseLalaing {
   display: none;
-  width:450px;
+  width: 550px;
   top: 300px;
-  left: 1400px;
+  left: 1300px;
 }
 
 .oudenaerdeCityHall {
@@ -1283,7 +1287,7 @@ export default {
   width: auto;
   height: auto;
   top:75px;
-  left:400px;
+  left:300px;
 
   svg {
     position: relative;
@@ -1300,7 +1304,7 @@ export default {
   width: auto;
   height: auto;
   top: 350px;
-  left: 900px;
+  left: 800px;
 
   svg { 
     position: relative;

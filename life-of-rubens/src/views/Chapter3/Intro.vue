@@ -8,10 +8,9 @@
       </div>
       <div class="paragraphWrapper">
         <p class="timespan">1600 - 1621</p>
-        <p>Peter Paul Rubens' parents were Maria Pypelinckx and Jan Rubens. His mother's father was a famous tapestry manufactorer and his father came from a renowned mercantile family. They lived in the great port city of Antwerp.</p>
-        <p>The second half of the sixteenth century was a time of great unrest in Antwerp, seeing as the Protestant reformation was just starting to get taken seriously by the Spanish rulers. Seriously enough to dispatch the inquisition to the Spanish Netherlands and Flanders, and persecute followers of the Protestant belief, such as Peter Paul's Parents.</p>
-        <p>Let's travel to the city of Antwerp of this time period, and follow Jan and Maria in their journey to escape Catholic persecution.</p>
-      
+        <p>Peter Paul has grown up to be an ambitious, intelligent, and above all artistically gifted man. Now twenty-three years old he arrives in Venice to study the famous classics and meet like-minded people. His talents and eloquent demeanor catch the attention of Duke Vincenzo I Gonzaga of Mantua, who takes a liking to the young artist.</p>
+        <p>The Duke invites Rubens to his court in Mantua and even provides him with the funds to further his goal to study the great Itallian artists. He travels to Rome where he falls head over heels for the works of Caravagio and specifically the Hellenistic sculpture “Laocoön and His Sons”. Caravaggio’s naturalistic style is a huge inspiration for Rubens and influences of it are seen throughout his works.</p>
+        <p>Peter Paul also undertakes a special diplomatic mission for Duke Vincenzo. He is sent to the court of Felipe III of Spain, the son of Felipe II but far more progressive than his father. Peter Paul leads an escort of works of art and other presents. He is perfect for the job seeing as he can both restore the paintings that get damaged along the way, as well as greatly impress the court of Felipe III with his intellect and eloquence. He receives a more than warm welcome and uses his time in Spain to paint numerous commissions and portraits.</p>
 
       </div>
       <div class="buttonWrapper">
@@ -41,7 +40,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -49,7 +48,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

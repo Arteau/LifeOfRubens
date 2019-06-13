@@ -3,7 +3,7 @@
 
     <div class="layer" data-depth="0.2">
         <div class="infoBox infoHetSteen">    
-            <h1>'Het Steen'</h1>
+            <h1>Castle 'Het Steen'</h1>
             <h2>1634</h2>
             <p class="infoText">Placeholder text about Rubens buying castle 'Het Steen'.</p>     
             <router-link to="/timeline/Chapter5/Outro">

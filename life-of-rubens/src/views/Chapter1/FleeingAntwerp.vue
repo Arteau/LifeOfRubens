@@ -5,7 +5,7 @@
         <div class="infoBox infoFleeingAntwerp">    
           <h1>Fleeing Antwerp</h1>
           <h2>1568</h2>
-          <p class="infoText">The tensions between the Protestant revolutionaries and their Spanish rulers lead to a war for Dutch and Flemish independence known as The Eighty Years' War. It is also in this year that Jan and Maria flee Antwerp to travel to Cologne, hoping to escape persecution by the inquisition.</p>     
+          <p class="infoText">The further tensions between the Protestants and the Catholics following the Council of Troubles lead to a war for Dutch and Flemish independence known as The Eighty Years’ War. It is around this time that Jan and Maria flee Antwerp and travel to Cologne.</p>     
           <router-link to="/timeline/Chapter1/Cologne">
            <div class="callToAction">
             <button>Next</button>
@@ -18,7 +18,7 @@
         <div class="infoBox infoJanAndMaria">    
           <h1>Jan & Maria</h1>
           <h2>1561</h2>
-          <p class="infoText">Jan Rubens is a renowned lawyer and a well known figure with the nobility and politicians of Antwerp. He marries the wealthy Maria Pypelinckx. He is thirty-one and she is twenty-three. They are both Calvinist Protestants. Jan becomes a magistrate for the city of Antwerp.</p>     
+          <p class="infoText">Jan Rubens is a renowned lawyer and a well known figure with the nobility and politicians of Antwerp. He marries Maria Pypelinckx, a woman of twenty-three from a wealthy family of tapestry manufacturers. They are both Protestant Calvinists and as such are well aware of the rising tensions in the region. Before they have to worry about the conflict too much however, Jan becomes an official magistrate for the city of Antwerp.</p>     
           <a href="#">
            <div class="callToAction nxtJanAndMaria">
             <button>Next</button>
@@ -31,7 +31,7 @@
         <div class="infoBox infoInquisition">    
           <h1>The Spanish Inquisition</h1>
           <h2>1559 - 1567</h2>
-          <p class="infoText">King Philip II of Spain leaves his kingdom's northern provinces, the Spanish Netherlands, and appoints Margaret Of Parma as their governor. Under her rule persecution of the Protestants by the Catholic inquisition worsens and tensions begin to rise as Protestant preachers call for revolt.</p>     
+          <p class="infoText">King Philip II is the ruler of Spain, but also a Duke of Habsburg of the Holy Roman Empire. As such he spends a considerable amount of time in the northernmost territories of his kingdom: The Spanish Netherlands. In 1559 however, he leaves for the Iberian Peninsula and appoints Margaret of Parma as governor. Under her rule persecution of the Protestants by the Spanish Inquisition worsens. The situation is so bad that Protestant preachers call for revolt. In 1566 the Iconoclastic Fury or “Beeldenstorm” happens, leading to numerous death sentences of Protestants by the Council of Troubles.</p>     
           <a href="#">
            <div class="callToAction nxtInquisition">
             <button>Next</button>
@@ -745,7 +745,7 @@ export default {
   z-index: 10;
 
   // opacity: 0;
-  top: 450px;
+  top: 350px;
   left: 450px;
   width: 500px;
 }

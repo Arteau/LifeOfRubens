@@ -8,10 +8,8 @@
       </div>
       <div class="paragraphWrapper">
         <p class="timespan">1587 - 1599</p>
-        <p>Peter Paul Rubens' parents were Maria Pypelinckx and Jan Rubens. His mother's father was a famous tapestry manufactorer and his father came from a renowned mercantile family. They lived in the great port city of Antwerp.</p>
-        <p>The second half of the sixteenth century was a time of great unrest in Antwerp, seeing as the Protestant reformation was just starting to get taken seriously by the Spanish rulers. Seriously enough to dispatch the inquisition to the Spanish Netherlands and Flanders, and persecute followers of the Protestant belief, such as Peter Paul's Parents.</p>
-        <p>Let's travel to the city of Antwerp of this time period, and follow Jan and Maria in their journey to escape Catholic persecution.</p>
-      
+        <p>Back in Antwerp the tensions have died down a bit thanks to an accord between the Protestant leaders known as the “Geuzen” and Margaret of Parma. This accord states religious freedom in the Spanish Netherlands as long as Catholics can practice their faith without harassment and fear for destruction of their places of worship.  This also means that the two young brothers can enjoy a modern humanistic and Latin education at the Augustinian college. The rector at this college is Rombout Verdonck, a renowned scholar who is sympathetic to the Protestant cause.</p>
+        <p>The brothers’ education is an expensive one however and after about a year they have to resign because of a lack of funds. The money normally reserved for their education goes to the dowry of their older sister Blandina who is getting married. Not to worry though, as Maria intended for Philip and Peter Paul to have an aristocratic future and as such had already asked noblewoman Marguerite de Ligne whether she would take on Peter Paul as a page.</p>
 
       </div>
       <div class="buttonWrapper">
@@ -41,7 +39,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -49,7 +47,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

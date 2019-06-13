@@ -7,11 +7,11 @@
         <hr>
       </div>
       <div class="paragraphWrapper">
-        <p class="timespan">1568 - 1586</p>
-        <p>Peter Paul Rubens' parents were Maria Pypelinckx and Jan Rubens. His mother's father was a famous tapestry manufactorer and his father came from a renowned mercantile family. They lived in the great port city of Antwerp.</p>
-        <p>The second half of the sixteenth century was a time of great unrest in Antwerp, seeing as the Protestant reformation was just starting to get taken seriously by the Spanish rulers. Seriously enough to dispatch the inquisition to the Spanish Netherlands and Flanders, and persecute followers of the Protestant belief, such as Peter Paul's Parents.</p>
-        <p>Let's travel to the city of Antwerp of this time period, and follow Jan and Maria in their journey to escape Catholic persecution.</p>
-      
+        <p class="timespan">1561 - 1586</p>
+        <p>The story of Peter Paul Rubens’ life starts with the journey of his parents. This is because understanding the conflict that shaped much of their lives is important in order to grasp what kind of world Peter Paul grew up in.</p>
+        <p>In the second half of the sixteenth century, what we now know as Belgium was then part of the Spanish Netherlands. A territory of the Spanish kingdom, ruled by King Philip II of Habsburg.</p>
+        <p> The Spanish Netherlands were a place of great unrest due to the tensions between the Catholic Church and the Protestant reformation movement. This divide reached a turning point in 1566 during an event that is known as the Iconoclastic Fury or “Beeldenstorm” in Dutch, which means “Storm of Statues”. During the Iconoclastic Fury, mobs of Protestant revolutionaries destroyed Catholic artwork and statues in retaliation to their harsh persecution by the Catholic Church.</p>
+        <p>Rubens’ parents were among those Protestant revolutionaries, and understandably fled the city of Antwerp out of fear for their otherwise relatively comfortable bureaucratic lives.</p>
 
       </div>
       <div class="buttonWrapper">
@@ -41,7 +41,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -49,7 +49,8 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    // margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

@@ -5,9 +5,9 @@
     <div class="fullWrapper">
       <div class="paragraphWrapper">
         <p class="timespan">1577 - 1589</p>
-        <p>Upon receiving news of Anna's demise, Maria writes a letter to William Of Orange-Nassau asking him to undo their exile and grant them permission to move back to Cologne. They're granted this permission, and move back to Cologne that year.</p>
-        <p>Jan, Maria, and their two children live a quiet live in Cologne until Jan dies in 1587. He is buried in the Saint Peter's Church in Cologne where Maria had a gravestone installed honoring his intellect, scholarly qualities, and twenty-five years of marriage without arguments.</p>
-        <p>Two years after her husbands' death, Maria moves back to Antwerp with her two sons and reconverts to Catholicism.</p>
+        <p>Upon receiving the news of Princess Anna’s demise, Maria writes a letter to Prince William. She urges him to undo their exile and asks him for permission to move back to Cologne with her family. Prince William writes back and grants the Rubens family their freedom.</p>
+        <p>In Cologne not much changes for the Rubens family apart from the fact that Jan can practice law again. They live a comfortable and happy life until in 1587 Jan dies. He is buried in the Saint Peter’s Church there in Cologne where Maria has a gravestone installed honoring Jan’s intellect, scholarly qualities, and twenty-five years of marriage without arguments.</p>
+        <p>Two years after her husband’s death, Maria and her two sons move back to Antwerp.</p>
       </div>
       <div class="buttonWrapper">
         <router-link to="/timeline/Chapter2/Intro">
@@ -36,7 +36,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -44,7 +44,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

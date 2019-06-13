@@ -4,8 +4,9 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">1598 - 1600</p>
-        <p>Outro text about Rubens' youth and growing up. He is declared healthy and cleared to travel to Italy</p>
+        <p class="timespan">1598 - 1599</p>
+        <p>Peter Paul doesn’t want to start a studio immediately though, he first wants to travel to Italy to further study the great classics of the renaissance and develop a proper style of his own. Travelling to Italy has been a dream of his since studying under Vaenius and thanks to his mother’s support, his own immense and clearly evident talent, and a good health, he is able to do so.</p>
+        <p>In 1599 Rubens says his goodbyes to his mother and departs for Italy. Unbeknownst to both of them, this is the last time they will ever speak to each other again.</p>
       </div>
       <div class="buttonWrapper">
         <router-link to="/timeline/Chapter3/Intro">
@@ -34,7 +35,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -42,7 +43,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

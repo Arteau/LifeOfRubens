@@ -4,9 +4,10 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">1589 - 1597</p>
-        <p>Text about the apprenticeships of Peter Paul.</p>
-      
+        <p class="timespan">1590 - 1598</p>
+        <p>As luck would have it for young Peter Paul, some far removed family on his mother’s side is the famous landscape painter Tobias Verhaecht. Maria reaches out to him and soon the fourteen year old Rubens starts his first apprenticeship as a painter. The first of many as it would turn out because after studying under Tobias for two years, he goes on to apprentice for Adam van Noort. His most important apprenticeship however was in the studio of Otto “Vaenius” van Veen, a painter of considerable reputation and a devout student of the classics.</p>
+        <p>At first the aspiring painter is tasked with copying earlier artists’ work, such as woodcuts by Hans Holbein the Younger and Marcantonio Raimondi’s engravings after Raphael, but after a while he starts to paint his own works.</p>
+        <p>Sadly not a lot of paintings of this era in his life are known. One of the only paintings we currently know of is The Portrait of a Young Scholar from 1597.</p>
 
       </div>
       <div class="buttonWrapper">
@@ -37,7 +38,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -45,7 +46,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

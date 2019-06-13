@@ -1,11 +1,11 @@
 <template>
   <div id="scene" class="home main-content">
 
-    <div class="layer" data-depth="0.2">
+    <div class="layer" data-depth="0.27">
         <div class="infoBox infoMasterRubens">    
             <h1>Master Painter of St. Luke</h1>
             <h2>1598</h2>
-            <p class="infoText">Placeholder text about how Rubens achieves the rank of master painter in the guild of Saint Luke.</p>     
+            <p class="infoText">	After eight years of art education and apprenticeships at some of the most renowned painter’s studios of his city, Peter Paul Rubens is admitted as a master to the painter’s guild of St. Luke. He is now permitted to work directly for his own clients and take on apprentices in a studio of his own.</p>     
             <router-link to="/timeline/Chapter2/Outro">
                 <div class="callToAction">
                     <button>Next</button>
@@ -481,7 +481,6 @@ export default {
 }
 
 .infoMasterRubens{
-//   opacity: 0;
   width: 550px;
   top: 350px;
   left: 1300px;

@@ -4,12 +4,10 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">1568 - 1577</p>
-        <p>In Cologne Jan Rubens becomes the judicial advisor to Princess Anna of Saxony, the wife of Prince William of Orange-Nassau. It is this William of Orange-Nassau who started the Eighty Years' War for Dutch and Flemish independence against the Habsburgs of Spain.</p>
-        <p>Princess Anna has need of Jan's services as a lawyer because she is displeased with her marriage, and wants to reclaim her dowry. Jan and Princess Anna have an affair, which is quickly found out by Prince William. By the time their affair is discovered however, Princess Anna is pregnant with Jan's child.</p>
-        <p>Because of this inexcusable offense, Jan is convicted of adultery and might be sentenced to die. Afraid for her husband's life and in spite of his unfaithfulness towards her, Maria Pypelinckx writes letters to the Orange-Nassau family pleading to let her husband go free. It is because of her bravery that Jan Rubens is allowed to live. However, Jan and Maria are exiled to the town of Siegen.</p>
-        <p>In Siegen Jan and Maria live a quiet life together, as Jan is forbidden to practice law as long as Anna of Saxony is still alive. It is here that their two sons Philip and Peter Paul are born.</p>
-      
+        <p class="timespan">1568 - 1574</p>
+        <p>In Cologne the well established Jan gains the favor of Princess Anna of Saxony, the wife of Prince William of Orange-Nassau. Prince William -also known as William the Silent- is the instigator of the Eighty Years’ War against the Spanish.</p>
+        <p>The marriage of the Prince and the Princess wasn’t without its faults however. Due to their marital problems Jan becomes Princess Anna’s judicial advisor. He aids her effort to get her dowry back from the Orange-Nassau family and as such spends a lot of time with her. They become really close, too close, and start an affair which is quickly found out by Prince William. By the time their affair is discovered however, Princess Anna is already pregnant with Jan’s child.</p>
+        <p>Because of this inexcusable offense Jan is convicted of adultery, imprisoned, and might even be sentenced to die. Fearing for her husband’s life and in spite of his unfaithfulness towards her, Maria Pypelinckx starts to write letters to members of the Orange-Nassau family, pleading for her husband’s life. This can be considered an act of true bravery seeing as although Maria is wealthy, she isn’t nobility. Sending these letters means risking her own freedom. It pays off however, Jan is allowed to live but together with his wife exiled to the nearby town of Siegen.</p>
 
       </div>
       <div class="buttonWrapper">
@@ -40,7 +38,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -48,7 +46,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

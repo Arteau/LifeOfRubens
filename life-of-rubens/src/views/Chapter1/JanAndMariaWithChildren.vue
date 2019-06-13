@@ -5,7 +5,8 @@
         <div class="infoBox infoPhilipRubens">    
             <h1>Philip Rubens</h1>
             <h2>1574</h2>
-            <p class="infoText">The war between the Dutch and the Spanish escalates further after a deciding victory for the Spanish at the Battle of Mookerheyde. William of Orange-Nassau's younger brothers Louis and Henry of Nassau both perish in this battle. Barely two weeks later, on the 27th April, Philip Rubens is born. He will grow up to be a famous lawyer and administrator, just like his father.</p>     
+            <p class="infoText">In Siegen Jan and Maria live a quiet life, seeing as Jan is forbidden from practicing law at all. Not all is bad however, because in 1574 their son Philip is born. Philip isn’t their first child, they already had four children back in Antwerp.</p>
+            <p class="infoText">Among these children is their daughter Blandina who according to some records came with her parents to Cologne. It is unknown whether or not the other three children accompanied Jan and Maria as well.</p>     
             <a href="#">
                 <div class="callToAction nxtPhilipRubens">
                     <button>Next</button>
@@ -17,7 +18,7 @@
         <div class="infoBox infoPeterPaulRubens">    
             <h1>Peter Paul Rubens</h1>
             <h2>1577</h2>
-            <p class="infoText">Even though the Spanish had the upper hand in the war, a lot of their forces mutinied because they hadn’t been paid in two years. After sacking the cities of Aalst and Antwerp, in February a treaty called the ‘Eternal Edict’ was signed, stating that the Spanish would withdraw from Flanders for the time being. In the summer of that year Peter Paul Rubens was born in Siegen, on the 28th of June. In December the Rubens family received news of the death of Anna of Saxony, the reason of their exile.</p>     
+            <p class="infoText">Three years after Philip is born he is gets a little brother. On the 28th of June, Peter Paul is born. This isn’t the only big news that year though. The family receives word that the reason for their exile, Princess Anna of Saxony, is no more.</p>     
             <router-link to="/timeline/Chapter1/Outro">
                 <div class="callToAction">
                     <button>Next</button>
