@@ -2,7 +2,7 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="titleWrapper">
-        <h2 class="chapter">Chapter 3</h2>
+        <h2 class="chapter">Chapter 4</h2>
         <h1 class="title">Great Renown, Greater Grief.</h1>
         <hr>
       </div>

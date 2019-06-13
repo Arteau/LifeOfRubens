@@ -452,13 +452,13 @@ export default {
     });    
   
     var tlAtelier = new TimelineLite();
-    tlAtelier.staggerFrom(".masterRubensLines", 1, {drawSVG:0}, 0.1, "masterRubens")
+    tlAtelier.staggerFrom(".masterRubensLines", 0.5, {drawSVG:0}, 0.1, "masterRubens")
     tlAtelier.fromTo(".masterRubensBg", 1, {opacity:0}, {opacity:1}, "masterRubens")
     tlAtelier.staggerFrom(".canvasLines", 2, {drawSVG:0}, 0.1, "masterRubens+=3")
     tlAtelier.fromTo(".canvasBg", 1, {opacity:0}, {opacity:1}, "masterRubens+=3")
-    tlAtelier.staggerFrom(".tableLines", 2, {drawSVG:0}, 0.1, "masterRubens+=7")
-    tlAtelier.fromTo(".tableBg", 1, {opacity:0}, {opacity:1}, "masterRubens+=9")
-    tlAtelier.staggerFrom(".atelierLines", 2, {drawSVG:0}, 0.1, "masterRubens+=14")
+    tlAtelier.staggerFrom(".tableLines", 2, {drawSVG:0}, 0.1, "masterRubens+=6")
+    tlAtelier.fromTo(".tableBg", 1, {opacity:0}, {opacity:1}, "masterRubens+=8")
+    tlAtelier.staggerFrom(".atelierLines", 2, {drawSVG:0}, 0.1, "masterRubens+=9")
 
   }
 }
