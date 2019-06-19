@@ -4,9 +4,9 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">16xx - 16xx</p>
-        <p>Text about the death of rubens' mother and his return to Antwerp.</p>
-      
+        <p class="timespan">1608</p>
+        <p>After having spent eight years in Italy, Rubens receives word that his mother has become dangerously ill. Startled by this frightening news he immediately departs for Antwerp, worried for his mother’s life. Sadly he arrives too late, and Maria Pypelinckx dies on the 19th of October before Peter Paul arrives in Antwerp. Never in his life will Rubens travel back to Italy.</p>
+        <p>In the year following his mother’s death Rubens becomes the appointed court painter to Archduke Albert and Archduchess Isabella. Isabella is the granddaughter of the Holy Roman Emperor Charles V. Even though they pay him a wage of 500 livres a year to work for them, he is allowed to operate out of Antwerp instead of their court. Because of this he is also able to take on major commissions for the municipality of Antwerp itself.</p>
 
       </div>
       <div class="buttonWrapper">
@@ -37,7 +37,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -45,7 +45,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

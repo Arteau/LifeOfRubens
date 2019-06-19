@@ -5,7 +5,7 @@
         <div class="infoBox infoHelene">    
             <h1>Hélène Fourment</h1>
             <h2>1630</h2>
-            <p class="infoText">Placeholder text about Rubens marrying the young and stunningly beautiful Hélène Fourment</p>     
+            <p class="infoText">Not much is known about Peter Paul and Hélène’s relationship. We can of course guess that a marriage between a teenager and a fifty year old wouldn’t have been without problems, but if the paintings are anything to go by they at the very least seemed happy together. Rubens and Hélène end up having four children, with a fifth being born right after Peter Paul’s death. They live in the Rubens House on The Wapper in Antwerp.</p>     
             <a href="#">
                 <div class="callToAction nxtHelene">
                     <button>Next</button>
@@ -17,8 +17,8 @@
     <div class="layer" data-depth="0.2">
         <div class="infoBox infoWeddingDress">    
             <h1>The Wedding Dress</h1>
-            <h2>1630</h2>
-            <p class="infoText">text about the famous wedding dress painting, and how Helene would go on to model for almost all female figures Rubens painted from this point on</p>     
+            <h2>1630 - 1631</h2>
+            <p class="infoText">The painting of Hélène in her wedding dress can be considered the start of the last decade of Rubens’ life artistically speaking. She truly invokes new inspiration in him, and he’ll go on to base almost all female figures he paints on her likeness.</p>     
             <router-link to="/timeline/Chapter5/NewfoundPassion">
                 <div class="callToAction">
                     <button>Next</button>
@@ -771,9 +771,9 @@ export default {
   tlHelene.staggerFrom(".heleneFace", 2, {drawSVG:0}, 0.1, "face")
   .staggerFrom(".heleneHair", 2, {drawSVG:0}, 0.05, "face+=2")
   .staggerFrom(".heleneCollar", 2, {drawSVG:0}, 0.1, "face+=4")
-  .staggerFrom(".heleneTorso", 2, {drawSVG:0}, 0.1, "face+=6")
+  .staggerFrom(".heleneTorso", 1, {drawSVG:0}, 0.1, "face+=2")
   .staggerFrom(".heleneArms", 1, {drawSVG:0}, 0.05, "face+=6")
-  .staggerFrom(".heleneDress", 2, {drawSVG:0}, -0.1, "face+=8")
+  .staggerFrom(".heleneDress", 2, {drawSVG:0}, -0.1, "face+=5")
 
   tlWeddingDress.fromTo(".infoHelene", 2, {opacity:1}, {opacity:0})
   .add(function(){ document.querySelector(".infoHelene").style.display = "none"})
@@ -815,9 +815,9 @@ export default {
 
 .infoWeddingDress{
   display: none;
-  width: 450px;
-  top: 500px;
-  left: 1100px;
+  width: 500px;
+  top: 450px;
+  left: 1200px;
 }
 
 .heleneFourment {

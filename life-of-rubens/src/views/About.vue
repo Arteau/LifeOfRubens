@@ -3,15 +3,11 @@
     <div class="fullWrapper">
       <div class="paragraphWrapper">
         <p class="timespan">LIFE OF RUBENS</p>
-        <p>The website Life of Rubens takes you on a journey to 16th and 17th century Europe to learn about the life of Flemish painter Peter Paul Rubens.</p>
-        <p>It does this with the help of animated illustrations all handmade by the creator of the website, often with real paintings of Rubens as reference.</p>
-        <p>The illustrations were first sketched out in Photoshop, then vectorized and exported to SVG in Illustrator, and lastly implemented and animated on the website with <a href="https://greensock.com/">GSAP</a>.</p>
-        <p><a href="https://vuejs.org/">Vue.js</a> was used as a framework for the website to split up the different pages into views for a more managable workflow.</p>
-<br>
-        <p class="timespan">ARTEAU DE MEESTER</p>
-        <p>The creator of Life of Rubens is <a href="https://www.instagram.com/arteaudem/">Arteau De Meester</a>, a web-designer and illustrator from Belgium.</p>
-        <p>He made the website as his final school project for his bachelor's degree in multimedia technology in 2019.</p>
-
+        <p>The website Life of Rubens was made as a thesis project by <a href="https://www.instagram.com/arteaudem/">Arteau De Meester</a> for his bachelor's degree in Multimedia Technology.</p>
+        <p>It utilizes SVG illustrations animated with <a href="https://greensock.com/">GSAP</a> on a website with <a href="https://vuejs.org/">Vue.js</a> as framework.</p>
+<hr>
+        <p>Two books were used as reference for the story told on this website: <a href="https://www.polis.be/de-vrouwen-van-rubens.html">"De Vrouwen Van Rubens"</a> (The Women Of Rubens) by Rosine De Dijn, and <a href="https://www.taschen.com/pages/en/catalogue/art/all/43104/facts.rubens.htm">"Peter Paul Rubens"</a> by Gilles Néret from the Taschen collection.</p>
+        <p>The first book, "De Vrouwen Van Rubens", was invaluable in gaining more understanding in Rubens' life. It is his life's story told through the eyes of the women in his life, ranging from his mother and wives to the powerful noblewomen and queens he meets. The book from the Taschen collection was especially handy as a catalogue of his paintings, as well as a brief overview of his life in the shape of a concise timeline.</p>
       </div>
     </div>  
   </div>
@@ -32,7 +28,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -40,7 +36,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

@@ -5,7 +5,7 @@
         <div class="infoBox infoFuneral">    
             <h1>Isabella dies</h1>
             <h2>1626</h2>
-            <p class="infoText">Placeholder text about the untimely demise of Isabella Brant, and how grief-stricken rubens was (letter he wrote).</p>     
+            <p class="infoText">Right after the hectic commission for Queen De’ Medici finally comes to an end, Rubens’ beloved wife Isabella dies from the black plague. He is heartbroken and absolutely grief-stricken. In order to occupy his grief he starts to undertake more politically tinted missions again, but soon grows disheartened with this world of intrigue.</p>     
             <router-link to="/timeline/Chapter4/Outro">
                 <div class="callToAction">
                     <button>Next</button>

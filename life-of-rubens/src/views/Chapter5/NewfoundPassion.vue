@@ -4,8 +4,8 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">16xx - 16xx</p>
-        <p>Text about how Helene sparks a new passion and inspiration in rubens.</p>
+        <p class="timespan">1631 - 1634</p>
+        <p>With renewed vigor Peter Paul paints a series of late masterpieces, all of which are purely for his own pleasure. He doesn’t take on new commissions and publicly retires from politics. Most of the paintings he makes during this time are portraits of Hélène, including the controversial and very intimate “Het Pelsken”. That last one can be translated to “The Fur Cloak” and is a rather striking portrait of a nude Hélène, loosely covered with a fur cloak, smiling at her husband. It is Rubens’ absolute favorite painting of her, and goes so far as to specifically state in his will that it has to be gifted to Hélène before the official reading of his last will and testament without notifying art dealers or galleries to ensure it stays within her private possession.</p>
       </div>
       <div class="buttonWrapper">
         <router-link to="/timeline/Chapter5/HetSteen">
@@ -34,7 +34,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -42,7 +42,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

@@ -4,8 +4,8 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">16xx - 16xx</p>
-        <p>Outro text about Rubens' grief and his travels to spain and england to disctract himself.</p>
+        <p class="timespan">1638 - 1640</p>
+        <p>In 1638 Peter Paul survives a very serious gout attack, a condition he has been struggling with since his time in Paris working for Queen De’ Medici. Gout is known as a disease for aristocrats, because thanks to the protein rich diet of mainly meat, the nobility often lacks nutrients found in vegetables and fruit which are considered food for peasants and monks. in 1640 his health worsens again for the last time. On may 27th of that year, he makes his will. He leaves almost everything to his wife. Three days later Peter Paul, still of agonizingly sound mind, and retaining all of his brilliant intellect and prodigious artistic vitality, dies. He just turned sixty-three. After his death his last child is born, a daughter, who is named Constantina-Albertina.</p>
       </div>
       <div class="buttonWrapper">
         <router-link to="/About">
@@ -34,7 +34,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -42,7 +42,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

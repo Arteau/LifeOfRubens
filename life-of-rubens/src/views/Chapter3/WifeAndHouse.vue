@@ -5,7 +5,7 @@
         <div class="infoBox infoCouple">    
             <h1>Isabella Brant</h1>
             <h2>1609</h2>
-            <p class="infoText">Placeholder text about Rubens lovely wife, Isabella Brant.</p>     
+            <p class="infoText">After returning from Italy, Peter Paul and his brother live together in their parental home for a while until Philip gets married. Peter Paul is extraordinarily enthusiastic about his brother’s wife Maria and writes about her to a friend in Italy. In his letter he states how blessed his brother is to find such a beautiful, smart, and gracious bride, and that he will never be as lucky. He is mistaken, however, because only a little bit later that year Rubens meets Maria’s niece Isabella and falls head over heels in love with her.</p>     
             <a href="#">
                 <div class="callToAction nxtCouple">
                     <button>Next</button>
@@ -16,8 +16,8 @@
     <div class="layer" data-depth="0.2">
         <div class="infoBox infoHouse">    
             <h1>The Rubens House</h1>
-            <h2>1609</h2>
-            <p class="infoText">Placeholder text about the famous Rubens House palazzo.</p>     
+            <h2>1609 - 1611</h2>
+            <p class="infoText">Peter Paul and Isabella marry not long after meeting each other for the first time. They are a happy and prosperous couple seeing as Rubens has become particularly successful. At this point he has contacts in almost all the major royal courts of Europe, and as such it isn’t much of a surprise that in 1611 he buys a large and stately house on The Wapper in Antwerp. Rubens turns this house into a true Italian style “Palazzo”. He designs it himself no doubt inspired by the architecture he became familiar with during his stay in Italy. This is the very same house that today still serves as “The Rubens House” museum.</p>     
             <router-link to="/timeline/Chapter3/Outro">
                 <div class="callToAction">
                     <button>Next</button>
@@ -1197,15 +1197,15 @@ export default {
 }
 
 .infoCouple{
-  width: 550px;
-  top: 450px;
-  left: 330px;
+  width: 450px;
+  top: 250px;
+  left: 300px;
 
 }
 
 .infoHouse {
   display: none;
-  width: 450px;
+  width: 500px;
   top: 100px;
   left: 1300px;
 }
@@ -1223,7 +1223,7 @@ export default {
   width: auto;
   height: auto;
   top: 350px;
-  left: 950px;
+  left: 800px;
 
   svg {
     position: relative;

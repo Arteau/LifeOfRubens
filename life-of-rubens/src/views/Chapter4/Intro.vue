@@ -7,10 +7,10 @@
         <hr>
       </div>
       <div class="paragraphWrapper">
-        <p class="timespan">1622 - 1630</p>
-        <p>Peter Paul Rubens' parents were Maria Pypelinckx and Jan Rubens. His mother's father was a famous tapestry manufactorer and his father came from a renowned mercantile family. They lived in the great port city of Antwerp.</p>
-        <p>The second half of the sixteenth century was a time of great unrest in Antwerp, seeing as the Protestant reformation was just starting to get taken seriously by the Spanish rulers. Seriously enough to dispatch the inquisition to the Spanish Netherlands and Flanders, and persecute followers of the Protestant belief, such as Peter Paul's Parents.</p>
-        <p>Let's travel to the city of Antwerp of this time period, and follow Jan and Maria in their journey to escape Catholic persecution.</p>
+        <p class="timespan">1622 - 1629</p>
+        <p>Thanks to his great success Peter Paul catches the eye of Marie De’ Medici, the Queen of France. Queen De’ Medici is a big admirer of Rubens’ work and commissions him to decorate one of the great galleries in her personal “Palais de Luxembourg” with no less than twenty-one paintings about her reign as Queen. She also wants another series of similar paintings completely dedicated to her late husband, King Henri IV’s life. Although this latter series would never come to fruition. A monumental task that only Peter Paul could bring to a successful end. Seeing as he is the only painter in Europe who is both enough of an artistic genius and able to work on the huge sizes required for this commission. Even though it is a herculean task, Rubens accepts nonetheless.</p>
+        <p>Rubens had met the Queen before, back when he called Mantua his home and resided under Duke Vincenzo. The Duke was invited to Marie De’ Medici’s wedding to Henri IV and Rubens was part of his entourage there. Rubens’ patronesse Archduchess Isabella is a good friend of Marie De’ Medici, and it is safe to assume that Marie got the idea to hire Rubens for her epic from Isabella. When Rubens travels to France to meet with Marie in context of this commission for the first time, he even brings her a little dog. A gift from Isabella.</p>
+        
       
 
       </div>
@@ -41,7 +41,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -49,7 +49,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

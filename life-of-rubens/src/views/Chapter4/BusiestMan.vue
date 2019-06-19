@@ -4,8 +4,9 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">16xx - 16xx</p>
-        <p>about how terrible it was to work for DiMedici</p>
+        <p class="timespan">1622 - 1625</p>
+        <p>Working for the Queen Regent comes with great prestige, but also political intrigue. Although Rubens could get along with the Queen just fine, he shared a certain disdain for cardinal Richelieu with her. This cardinal not only saw Rubens as a painter, but also as a potential political rival who represented the Habsburgs of Spain who weren’t on the best terms with France. All this because of Rubens’ earlier mission to Spain in the name of Duke Vincenzo back in Mantua. Peter Paul doesn’t have much interest in politics though and thinks of the cardinal as a bothersome opportunist.</p>
+        <p>After a while Rubens’ relationship with the Queen starts to sour. Her harsh deadlines and impossible mood swings put unwanted pressure on Rubens. She expects him to finish her De’ Medici Cycle in two years, while insisting that only he paints the main subjects. While his assistants can only help paint the backgrounds. On top of that she regularly changes her mind about banalities such as motifs and colours. She even makes Rubens completely re-do some paintings because she is unhappy with the way he portrayed her. At one point Rubens writes to a friend about his situation with the Queen. He tells him how he is the busiest and most bothered man alive, and he will most likely not return to her court after finishing his assignment. Rubens also never got paid in full by the Queen.</p>
       </div>
       <div class="buttonWrapper">
         <router-link to="/timeline/Chapter4/TragicLoss">
@@ -34,7 +35,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -42,7 +43,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

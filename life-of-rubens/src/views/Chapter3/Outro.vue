@@ -4,8 +4,9 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">16xx - 16xx</p>
-        <p>Outro text about Rubens' atelier in the Rubens house, his wife, and the children.</p>
+        <p class="timespan">1612 - 1621</p>
+        <p>Peter Paul and Isabella end up having three children. Two sons, Nicolaas and Albert, and a daughter Clara who sadly died when she was only twelve.</p>
+        <p>In his new home Rubens doesn’t only live but also work. Tirelessly so. A large part of this palazzo he designed for himself is a workshop where he, aided by quite a few assistants, completes magnificent works of art. It can even be said that the manner in which art is produced at Rubens’ workshop is nothing less than revolutionary. As he himself makes compositional oil sketches showing a relatively rough idea of what the final piece of art will look like, but then passes the artwork on to assistants of his. Each assistant is specialized in specific fields and subjects of painting. For instance, a painting containing animals he would pass on to an assistant specifically gifted in painting animals, who would then paint only that specific part of the painting. Rubens would almost always touch up the paintings himself before they left his workshop however. This working method turns Rubens’ workshop in something akin to a factory. No other workshop or atelier can match his productivity and as such Rubens establishes himself as easily  the most influential painter of his time.</p>
       </div>
       <div class="buttonWrapper">
         <router-link to="/timeline/Chapter4/Intro">
@@ -34,7 +35,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -42,7 +43,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

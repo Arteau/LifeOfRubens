@@ -3,9 +3,9 @@
 
     <div class="layer" data-depth="0.3">
         <div class="infoBox infoDeMedici">    
-            <h1>Marie de' Medici</h1>
+            <h1>Marie De' Medici</h1>
             <h2>1622</h2>
-            <p class="infoText">Placeholder text about Marie de' Medici's commission of paintings for Rubens.</p>     
+            <p class="infoText">When Rubens meets Marie De’ Medici in Paris, she has long been a widow. She is known to be a rather unpleasant, self indulging woman with a very argumentative personality. To many people’s surprise however, Rubens seems to be able to handle her just fine and even take a liking to her. We can speculate whether this is because of Rubens’ soft spot for widows, after all the single most important women in his life growing up, his mother, was a widow too.</p>     
             <a href="#">
                 <div class="callToAction nxtDeMedici">
                     <button>Next</button>
@@ -17,8 +17,8 @@
     <div class="layer" data-depth="0.3">
         <div class="infoBox infoPalais">    
             <h1>Palais de Luxembourg</h1>
-            <h2>1622</h2>
-            <p class="infoText">Placeholder text about Palais de Luxembourg.</p>     
+            <h2>1610</h2>
+            <p class="infoText">After Henri IV’s death Marie became Queen Regent to her and Henri’s son, Louis XIII, who was too young to rule. With this power Marie felt, came a palace. And so she had one built for her in 1610. After fifteen years of construction, in 1625 Marie De’ Medici finally moved in and ruled France from this brand new seat of power.</p>     
             <router-link to="/timeline/Chapter4/BusiestMan">
                 <div class="callToAction">
                     <button>Next</button>
@@ -2129,16 +2129,16 @@ export default {
 }
 
 .infoDeMedici{
-  width: 450px;
-  top: 550px;
-  left: 250px;
+  width: 500px;
+  top: 350px;
+  left: 200px;
 }
 
 .infoPalais {
   display: none;
-  width: 450px;
-  top: 550px;
-  left: 1200px;
+  width: 500px;
+  top: 350px;
+  left: 1300px;
 }
 
 .deMediciBg {
@@ -2176,7 +2176,7 @@ export default {
   width: auto;
   height: auto;
   top: 100px;
-  left: 400px;
+  left: 300px;
 
   svg {
     position: relative;

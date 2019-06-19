@@ -5,7 +5,7 @@
         <div class="infoBox infoHetSteen">    
             <h1>Castle 'Het Steen'</h1>
             <h2>1634</h2>
-            <p class="infoText">Placeholder text about Rubens buying castle 'Het Steen'.</p>     
+            <p class="infoText">In 1634 Peter Paul buys the castle “Het Steen” in Elewijt near Mechelen, and moves there with Hélène and their four children. Here he spends his last years painting landscapes in the summer.</p>     
             <router-link to="/timeline/Chapter5/Outro">
                 <div class="callToAction">
                     <button>Next</button>

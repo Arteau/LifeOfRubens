@@ -4,8 +4,9 @@
   <div class="home main-content">
     <div class="fullWrapper">
       <div class="paragraphWrapper">
-        <p class="timespan">16xx - 16xx</p>
-        <p>Outro text about Rubens' grief and his travels to spain and england to disctract himself.</p>
+        <p class="timespan">1628 - 1629</p>
+        <p>In 1628 he travels to Spain, to the court of King Philip IV the son of Philip III whom Rubens visited in name of Duke Vincenzo back in Mantua. Philip IV is a young king who recently married the daughter of Marie De’ Medici. His minister Olivares tries to keep the King and his wife apart as best he can however, in order not to lose his influence over him. It goes without saying that upon Rubens’ arrival in Spain he was first treated with distrust. However this wasn’t the first time Peter Paul dealt with distrusting nobles and before long this court too was impressed with this cultivated man and extraordinary artist. King Philip IV finds Rubens’ portrait of him so delightful that he grants him official letters patent of nobility.</p>
+        <p>A year later Archduchess Isabelle promotes Rubens to her personal secretary and sends him to England in order to try and ease the tensions brewing between England and Spain. Although he receives a more than warm welcome by King Charles I, the king isn’t quite convinced by Rubens’ arguments. However, Rubens is commissioned with painting several portraits of the king and decorate the banqueting house with paintings of the king’s reign. Charles I is so taken away by Ruben’s genius that he knights the painter.</p>
       </div>
       <div class="buttonWrapper">
         <router-link to="/timeline/Chapter5/Intro">
@@ -34,7 +35,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -42,7 +43,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

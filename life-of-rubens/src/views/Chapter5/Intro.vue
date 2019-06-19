@@ -8,10 +8,8 @@
       </div>
       <div class="paragraphWrapper">
         <p class="timespan">1630 - 1640</p>
-        <p>Peter Paul Rubens' parents were Maria Pypelinckx and Jan Rubens. His mother's father was a famous tapestry manufactorer and his father came from a renowned mercantile family. They lived in the great port city of Antwerp.</p>
-        <p>The second half of the sixteenth century was a time of great unrest in Antwerp, seeing as the Protestant reformation was just starting to get taken seriously by the Spanish rulers. Seriously enough to dispatch the inquisition to the Spanish Netherlands and Flanders, and persecute followers of the Protestant belief, such as Peter Paul's Parents.</p>
-        <p>Let's travel to the city of Antwerp of this time period, and follow Jan and Maria in their journey to escape Catholic persecution.</p>
-      
+        <p>Rubens returns from England in 1630 and the disappointment he already felt with the political landscape has grown even larger. He is also fed up with his life as a widower, and remarks to a friend that although he feels his age, he is not ready for a celibate life. On the 6th of december 1630 Peter Paul, then aged fifty-three, marries the stunningly beautiful Hélène Fourment. The then sixteen year old daughter of a wealthy silk manufacturer. While not quite a scandal, the age difference is definitely food for gossip, even for that time. Especially as Rubens sons were her playmates growing up, and Albert was even said to have an eye on her. Rubens left for Spain and England while she was only a girl, but came back to find a young woman whose beauty was said to surpass that of her Trojan namesake.</p>
+        
 
       </div>
       <div class="buttonWrapper">
@@ -41,7 +39,7 @@ export default {
 .home{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   
   width: 100%;
   height: 100%;
@@ -49,7 +47,7 @@ export default {
   .fullWrapper{
     width: 30vw;
     justify-self: center;
-    margin-top: 20vh;
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
