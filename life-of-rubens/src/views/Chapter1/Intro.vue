@@ -11,7 +11,7 @@
         <p>The story of Peter Paul Rubens’ life starts with the journey of his parents. This is because understanding the conflict that shaped much of their lives is important in order to grasp what kind of world Peter Paul grew up in.</p>
         <p>In the second half of the sixteenth century, what we now know as Belgium was then part of the Spanish Netherlands. A territory of the Spanish kingdom, ruled by King Philip II of Habsburg.</p>
         <p> The Spanish Netherlands were a place of great unrest due to the tensions between the Catholic Church and the Protestant reformation movement. This divide reached a turning point in 1566 during an event that is known as the Iconoclastic Fury or “Beeldenstorm” in Dutch, which means “Storm of Statues”. During the Iconoclastic Fury, mobs of Protestant revolutionaries destroyed Catholic artwork and statues in retaliation to their harsh persecution by the Catholic Church.</p>
-        <p>Rubens’ parents were among those Protestant revolutionaries, and understandably fled the city of Antwerp out of fear for their otherwise relatively comfortable bureaucratic lives.</p>
+        <p>Rubens’ parents were among those Protestant revolutionaries, and understandably fled the city of Antwerp out of fear for their otherwise relatively comfortable aristocratic lives.</p>
 
       </div>
       <div class="buttonWrapper">

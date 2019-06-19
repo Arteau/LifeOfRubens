@@ -4,7 +4,7 @@
     <div class="layer" data-depth="0.26">
         <div class="infoBox infoMantua">    
             <h1>Friends In Mantua</h1>
-            <h2>1600</h2>
+            <h2>1600 - 1608</h2>
             <p class="infoText">After returning from Spain Rubens spends some eight years in Mantua at the court of Duke Vincenzo. He even goes on to call Mantua his “adoptive home”. Here in Mantua Rubens meets some of the best artists, scientists, philosophers, and musicians of his time.</p>
             <p class="infoText">Even his brother Philip is in Mantua to study law and go the way of their father and become a lawyer. Both Peter Paul and Philip establish themselves here to be great humanistic thinkers.</p>
             <router-link to="/timeline/Chapter3/ReturnToAntwerp">
@@ -1392,6 +1392,7 @@ export default {
 
 .infoMantua{
 //   opacity: 0;
+
   width: 550px;
   top: 300px;
   left: 1300px;

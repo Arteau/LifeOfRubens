@@ -2097,15 +2097,16 @@ export default {
   .staggerFrom(".deMediciCollar", 2, {drawSVG:0}, 0.1, "face+=4")
   .staggerFrom(".deMediciArms", 2, {drawSVG:0}, 0.1, "face+=6")
   .staggerFrom(".deMediciDress", 2, {drawSVG:0}, 0.1, "face+=8")
+  
 
   tlPalais.fromTo(".infoDeMedici", 2, {opacity:1}, {opacity:0})
   .add(function(){ document.querySelector(".infoDeMedici").style.display = "none"; })
   .add(function(){ document.querySelector(".infoPalais").style.display = "block"; })
-  .staggerFrom(".middle", 1, {drawSVG:0}, -0.05, "middle")
-  .staggerFrom(".middleLeft", 0.5, {drawSVG:0}, 0.05, "middle")
-  .staggerFrom(".middleRight", 0.5, {drawSVG:0}, 0.05, "middle")
-  .staggerFrom(".rightWing", 0.5, {drawSVG:0}, -0.05, "middle")
-  .staggerFrom(".leftWing", 0.5, {drawSVG:0}, -0.05, "middle")
+  .staggerFrom(".middle", 0.5, {drawSVG:0}, -0.05, "middle")
+  .staggerFrom(".middleLeft", 0.5, {drawSVG:0}, 0.05, "middle+=1")
+  .staggerFrom(".middleRight", 0.5, {drawSVG:0}, 0.05, "middle+=0.5")
+  .staggerFrom(".rightWing", 0.5, {drawSVG:0}, -0.05, "middle+=1.5")
+  .staggerFrom(".leftWing", 0.5, {drawSVG:0}, -0.05, "middle+=2")
 
   }
 }

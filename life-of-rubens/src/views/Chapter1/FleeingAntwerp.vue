@@ -665,7 +665,6 @@
 
 <script>
 // @ is an alias to /src
-import { TweenMax } from 'gsap'
 import { TimelineLite } from 'gsap'
 import '../../gsap-bonus/DrawSVGPlugin'
 import Parallax from 'parallax-js'
@@ -697,7 +696,7 @@ export default {
 
     tlJanAndMaria.staggerFrom(".jan", 2, {drawSVG:0}, 0.1, "jan")
     .staggerFrom(".maria", 2, {drawSVG:0}, 0.1, "jan+=2")
-    .fromTo(".infoJanAndMaria", 1, {opacity:0}, {opacity:1}, "jan");
+    .fromTo(".infoJanAndMaria", 1, {opacity:0}, {opacity:1}, "jan")
 
     tlInquisition.fromTo(".infoJanAndMaria", 1, {opacity:1}, {opacity:0})
     .add( function(){ document.querySelector(".infoJanAndMaria").style.display = "none"; })
@@ -718,6 +717,7 @@ export default {
     .staggerFrom(".house5", 2, {drawSVG:0}, 0.1, "house1+=8")
     .fromTo(".infoFleeingAntwerp", 1, {opacity:0}, {opacity:1}, "house1");
     
+
   }
 }
 </script>

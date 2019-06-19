@@ -5,9 +5,20 @@
         <nav>
           <router-link to="/" id="logo">Life Of Rubens</router-link>
           <ul>
-              <li><router-link to="/">TIMELINE</router-link></li>
-              <li><router-link to="about">ABOUT</router-link></li>
-              <li><router-link to="contact">CONTACT</router-link></li>
+              <li><router-link to="/">HOME</router-link></li>
+              <li class="subnav">
+                  <a href="#" class="selected">TIMELINE</a>
+                  <ul>
+                    <li><router-link to="/timeline/Chapter1/Intro">CHAPTER 1</router-link></li>
+                    <li><router-link to="/timeline/Chapter2/Intro">CHAPTER 2</router-link></li>
+                    <li><router-link to="/timeline/Chapter3/Intro">CHAPTER 3</router-link></li>
+                    <li><router-link to="/timeline/Chapter4/Intro">CHAPTER 4</router-link></li>
+                    <li><router-link to="/timeline/Chapter5/Intro">CHAPTER 5</router-link></li>
+                  </ul>
+              
+                
+              </li>
+              <li><router-link to="/about">ABOUT</router-link></li>
           </ul>
         </nav>
 
@@ -26,8 +37,7 @@ export default {
  
 }
 </script>
-
-
 <style lang="scss" src="./global.scss">
+
 
 </style>

@@ -5,7 +5,7 @@
         <div class="infoBox">    
           <h1>Peter Paul Rubens</h1>
           <h2>1577 - 1640</h2>
-          <p class="infoText">Take an animated journey to the 16th and 17th century, and learn about the life of Flemish painter Peter Paul Rubens.</p>     
+          <p class="infoText">Embark on an animated journey to the 16th and 17th century, and learn about the life of Flemish painter Peter Paul Rubens.</p>     
           <router-link to="/timeline/Chapter1/Intro">
            <div class="callToAction">
             <button>Begin</button>

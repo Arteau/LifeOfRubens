@@ -773,8 +773,8 @@ export default {
   .staggerFrom(".heleneCollar", 2, {drawSVG:0}, 0.1, "face+=4")
   .staggerFrom(".heleneTorso", 2, {drawSVG:0}, 0.1, "face+=6")
   .staggerFrom(".heleneArms", 1, {drawSVG:0}, 0.05, "face+=6")
-  .staggerFrom(".heleneDress", 2, {drawSVG:0}, -0.1, "face+=8");
-  
+  .staggerFrom(".heleneDress", 2, {drawSVG:0}, -0.1, "face+=8")
+
   tlWeddingDress.fromTo(".infoHelene", 2, {opacity:1}, {opacity:0})
   .add(function(){ document.querySelector(".infoHelene").style.display = "none"})
   .add(function(){ document.querySelector(".infoWeddingDress").style.display = "block"})
